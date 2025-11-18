@@ -18,16 +18,16 @@
 - [x] **文档同步**：阶段完成后更新 backend/Agent 与根 Agent，写清包结构、主题范围与安全策略。
 
 ## 阶段 1：通信与认证
-- [ ] **配置模型**：使用 `@ConfigurationProperties` 承载 API URL、AppCode、UserAgent 等（如 `RoguelikeApiProperties`）。
-- [ ] **签名工具**：实现 `RoguelikeSignatureHelper`（HMAC-SHA256 → MD5），并用单测覆盖示例。
-- [ ] **HTTP 客户端**：基于 `WebClient` 或 `RestTemplate` 的 `RoguelikeHttpClient`，支持超时/重试/日志。
-- [ ] **认证链路**：
-  - [ ] `grant`：token → `oauth_code`
-  - [ ] `generate_cred_by_code`: `code` → `cred` + `token`
-  - [ ] `player/binding`: 获取 `uid`
-  - [ ] `rogue info`: 拉取 `topics/history/...`
-- [ ] **异常分类**：区分凭证错误、网络异常、API 非 0 code，并产出业务异常类。
-- [ ] **文档同步**：记录配置模型、HTTP 客户端、异常策略。
+- [x] **配置模型**：使用 `@ConfigurationProperties` 承载 API URL、AppCode、UserAgent 等（如 `RoguelikeApiProperties`）。
+- [x] **签名工具**：实现 `RoguelikeSignatureHelper`（HMAC-SHA256 → MD5），并用单测覆盖示例。
+- [x] **HTTP 客户端**：基于 `WebClient` 的 `RoguelikeHttpClient`，支持超时/异常包装。
+- [x] **认证链路**：
+  - [x] `grant`：token → `oauth_code`
+  - [x] `generate_cred_by_code`: `code` → `cred` + `token`
+  - [x] `player/binding`: 获取 `uid`
+  - [x] `rogue info`: 拉取 `topics/history/...`
+- [x] **异常分类**：区分凭证错误、网络异常、API 非 0 code，并产出业务异常类。
+- [x] **文档同步**：记录配置模型、HTTP 客户端、异常策略。
 
 ## 阶段 2：持久化层
 - [ ] **数据库表**：`roguelike_run`（`id` PK，`uid`，`theme_id`，`start_ts`，`record_json`，`created_at`，`updated_at`；可选结构化列 `score`、`success` 等）。

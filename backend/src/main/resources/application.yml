@@ -8,8 +8,18 @@ server:
   port: 8080
 
 hypergryph:
-  # ENTER_YOUR_SKLAND_TOKEN_FOR_TEST
+  # default token provided for development/testing; prefer overriding via env var
   token: ${HYPERGRYPH_TOKEN:}
+  endpoint:
+    # 以下链接均为官方登录/数据接口，固定不变
+    grant-url: https://as.hypergryph.com/user/oauth2/v2/grant
+    cred-auth-url: https://zonai.skland.com/api/v1/user/auth/generate_cred_by_code
+    binding-url: https://zonai.skland.com/api/v1/game/player/binding
+    rogue-info-url: https://zonai.skland.com/api/v1/game/arknights/rogue
+  app:
+    app-code: 4ca99fa6b56cc2ba
+    user-agent: Skland/1.35.0 (com.hypergryph.skland; build:103500035; Android 32; ) Okhttp/4.11.0
+    version-name: 1.35.0
 
 mybatis-plus:
   configuration:
