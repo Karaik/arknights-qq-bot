@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.StringUtils;
@@ -22,6 +23,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/roguelike")
 @Tag(name = "Roguelike API", description = "肉鸽主题刷新、查询接口")
@@ -43,8 +45,9 @@ public class RoguelikeController {
     )
     public ApiResponse<List<RoguelikeThemeSummary>> listThemes(
             @RequestHeader(value = "X-API-KEY", required = false)
-            @Parameter(description = "API Key，用于鉴权") String key) {
+            @Parameter(description = "API Key，用于鉴权", example = "local-dev-key") String key) {
         verifyApiKey(key);
+        log.debug("列出主题请求 via API key");
         return ApiResponse.success(service.listThemes());
     }
 
@@ -55,12 +58,13 @@ public class RoguelikeController {
     )
     public ApiResponse<RoguelikeAnalysisResult> getAnalysis(
             @RequestHeader(value = "X-API-KEY", required = false)
-            @Parameter(description = "API Key，用于鉴权") String key,
+            @Parameter(description = "API Key，用于鉴权", example = "local-dev-key") String key,
             @PathVariable @Parameter(description = "业务用户标识，可映射到多个 UID") String userKey,
             @PathVariable @Parameter(description = "主题 ID 或中文名称") String themeId,
             @RequestParam(value = "refresh", defaultValue = "false")
             @Parameter(description = "是否强制刷新后再返回数据") boolean refresh) {
         verifyApiKey(key);
+        log.info("分析请求 userKey={} themeId={} refresh={}", userKey, themeId, refresh);
         RoguelikeAnalysisResult result = service.getAnalysis(userKey, themeId, refresh);
         if (result == null) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "暂无历史记录，请先刷新");
@@ -75,11 +79,12 @@ public class RoguelikeController {
     )
     public ApiResponse<RoguelikeAnalysisResult> refresh(
             @RequestHeader(value = "X-API-KEY", required = false)
-            @Parameter(description = "API Key，用于鉴权") String key,
+            @Parameter(description = "API Key，用于鉴权", example = "local-dev-key") String key,
             @PathVariable @Parameter(description = "业务用户标识，可映射到多个 UID") String userKey,
             @RequestParam(value = "themeId", required = false)
             @Parameter(description = "指定主题 ID，不传则使用官方返回的当前主题") String themeId) {
         verifyApiKey(key);
+        log.info("刷新请求 userKey={} themeId={}", userKey, themeId);
         return ApiResponse.success(service.refreshAndAnalyze(userKey, themeId));
     }
 

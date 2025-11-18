@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Component
@@ -22,12 +23,11 @@ public class RoguelikeSignatureHelper {
     }
 
     public SignatureHeaders generateHeaders(String pathWithQuery, String body, long timestamp, String token) {
-        Map<String, String> baseHeaders = Map.of(
-                "platform", "1",
-                "timestamp", String.valueOf(timestamp),
-                "dId", "",
-                "vName", properties.getApp().getVersionName()
-        );
+        Map<String, String> baseHeaders = new LinkedHashMap<>();
+        baseHeaders.put("platform", "1");
+        baseHeaders.put("timestamp", String.valueOf(timestamp));
+        baseHeaders.put("dId", "");
+        baseHeaders.put("vName", properties.getApp().getVersionName());
 
         String headersJson = toJson(baseHeaders);
         String payload = (body == null ? "" : body);

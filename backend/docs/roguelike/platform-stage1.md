@@ -2,11 +2,11 @@
 
 ## 1. 配置模型
 
-- `hypergryph.*` 配置通过 `RoguelikeApiProperties` 暴露，字段包括：
-  - `token`：森空岛登录凭证（开发态可使用 `.env` 或默认值，生产务必通过环境变量注入）；
+- `hypergryph.*` 配置通过 `RoguelikeApiProperties` 暴露，仅包含：
   - `endpoint`：`grant/cred/binding/rogue-info` 四个固定 URL；
   - `app`：`appCode`、`userAgent`、`versionName`。
-- YAML：`backend/src/main/resources/application.yml` 记录了默认链接与开发 token，便于定制。
+- 森空岛 Token 不再写入配置/环境变量，而是由调用方在 `POST /api/skland/credentials/{userKey}` 时通过 Header `X-SKLAND-TOKEN` 传入并保存到 `SklandTokenStore`。
+- YAML `backend/src/main/resources/application.yml` 仅记录固定端点与 UA，便于定制。
 
 ## 2. 签名算法与 HTTP 客户端
 

@@ -2,6 +2,8 @@
 
 本笔记基于 `backend/src/main/resources/example` 下的 Python 项目（罗德岛集成战略分析仪），梳理其完整流程与森空岛集成战略 API 的数据字段含义。内容可直接用于在 Spring Boot 后端中重建相同能力。
 
+> 说明：示例项目使用 `.env` 加载 `HYPERGRYPH_TOKEN` 作为桌面应用输入方式；当前 Spring Boot 后端已改为通过接口 Header `X-SKLAND-TOKEN` 绑定凭证，不再依赖环境变量。
+
 ## 1. 运行流程概览
 
 1. **凭证引导 (`src/bootstrap.py`)**

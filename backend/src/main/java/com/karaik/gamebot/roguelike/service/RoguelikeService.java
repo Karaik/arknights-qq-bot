@@ -1,6 +1,9 @@
 package com.karaik.gamebot.roguelike.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.karaik.gamebot.roguelike.account.RoguelikeAccountService;
+import com.karaik.gamebot.roguelike.client.RoguelikeApiException;
 import com.karaik.gamebot.roguelike.client.RoguelikeHttpClient;
 import com.karaik.gamebot.roguelike.config.RoguelikeConfigException;
 import com.karaik.gamebot.roguelike.config.RoguelikeThemeConfig;
@@ -11,7 +14,9 @@ import com.karaik.gamebot.roguelike.domain.dto.RoguelikeAnalysisResult;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeThemeSummary;
 import com.karaik.gamebot.roguelike.repository.RoguelikeRunRepository;
 import com.karaik.gamebot.roguelike.theme.api.RoguelikeThemeAnalyzer;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -23,6 +28,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Slf4j
 @Service
 public class RoguelikeService {
 
@@ -55,9 +61,20 @@ public class RoguelikeService {
     public RoguelikeAnalysisResult refreshAndAnalyze(String userKey, String themeIdOrName) {
         String uid = accountService.resolveUid(userKey);
         String hyperToken = tokenStore.getToken(userKey);
-        AuthFlow flow = authService.authenticate(hyperToken);
+        if (!StringUtils.hasText(hyperToken)) {
+            log.warn("userKey={} 未绑定森空岛 Token，拒绝刷新", userKey);
+            throw new RoguelikeApiException("userKey 未绑定森空岛 Token，请先调用 /api/skland/credentials/" + userKey);
+        }
+        log.info("刷新肉鸽数据 userKey={} uid={} themeId={}", userKey, uid, themeIdOrName);
+        AuthFlow flow = authService.authenticate(userKey, hyperToken);
         var response = httpClient.requestRogueInfo(flow.cred(), flow.token(), flow.uid());
         Map<String, Object> data = response.data();
+//        try {
+//            ObjectMapper objectMapper = new ObjectMapper();
+//            log.info("credentials: {} ", objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(data));
+//        } catch (JsonProcessingException e) {
+//            throw new RuntimeException(e);
+//        }
 
         RoguelikeThemeConfig config = registry.getRequired(
                 Optional.ofNullable(themeIdOrName).orElseGet(() -> detectThemeId(data))

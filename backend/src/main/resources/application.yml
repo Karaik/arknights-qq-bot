@@ -8,8 +8,6 @@ server:
   port: 8080
 
 hypergryph:
-  # default token provided for development/testing; prefer overriding via env var
-  token: ${HYPERGRYPH_TOKEN:}
   endpoint:
     # 以下链接均为官方登录/数据接口，固定不变
     grant-url: https://as.hypergryph.com/user/oauth2/v2/grant

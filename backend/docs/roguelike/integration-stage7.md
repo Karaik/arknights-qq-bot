@@ -36,10 +36,12 @@
 
 ## 4. 联调指引
 
-1. 先调用 `POST /api/skland/credentials/{userKey}` 绑定森空岛 Token（必要时附带 UID）；
+1. 先调用 `POST /api/skland/credentials/{userKey}`，Header 同时提供 `X-API-KEY` 与 `X-SKLAND-TOKEN`（Body 可填 `uid`）完成森空岛 Token 绑定；在 Swagger/Knife4j 的 Authorize 弹窗中填写两个 security scheme 即可自动附带。
 2. 调用 `GET /api/roguelike/themes`，获取可用主题；
 3. 先 `POST /api/roguelike/{userKey}/refresh` 拉取最新数据；
 4. 再 `GET /api/roguelike/{userKey}/{themeId}/analysis` 获取展示数据；
 4. 如果接口需要 Mock，可直接使用上述返回例子或从 Swagger 下载 JSON。
+
+更多关于后端管线与参数流向，请参考《[backend-call-flow](backend-call-flow.md)》，便于联调时定位 `userKey`、`X-SKLAND-TOKEN`、`X-API-KEY` 等值的归属。
 
 文档变更请同步更新 `Agent.md` 以及本文件，保持阶段记录。

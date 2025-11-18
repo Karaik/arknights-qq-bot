@@ -15,7 +15,7 @@
    - Java 17 / Maven 3.9+
    - Node.js 20 LTS（自带 npm）
    - Kotlin 编译器由 Maven 插件自动拉取
-   - 进行后端（开发/测试）时，需要配置环境变量 `HYPERGRYPH_TOKEN`（可复制 `backend/.env.example` 为本地 `.env`，或直接在 shell 环境中导出）
+   - 绑定森空岛 Token 时，请调用 `POST /api/skland/credentials/{userKey}` 并在 Header 携带 `X-SKLAND-TOKEN`，无需设置任何环境变量
 2. **保持构建通过**
    - 后端：`mvn -q -f backend/pom.xml test`
    - 前端：在 `frontend/` 目录运行 `npm install && npm run build`

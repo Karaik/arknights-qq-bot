@@ -8,19 +8,9 @@ import org.springframework.validation.annotation.Validated;
 @ConfigurationProperties(prefix = "hypergryph")
 public class RoguelikeApiProperties {
 
-    private String token;
-
     private final Endpoint endpoint = new Endpoint();
 
     private final App app = new App();
-
-    public String getToken() {
-        return token;
-    }
-
-    public void setToken(String token) {
-        this.token = token;
-    }
 
     public Endpoint getEndpoint() {
         return endpoint;

@@ -6,7 +6,7 @@
 
 - 构建 `com.karaik.gamebot.roguelike` 领域，为森空岛集成战略（肉鸽）提供统一业务能力；
 - 允许在同一套流程内接入多个主题（如萨卡兹的无终奇语、宾夕法尼亚巨炮等），并为未来的非肉鸽模式预留扩展空间；
-- 在后端开发/测试阶段，通过环境变量 `HYPERGRYPH_TOKEN` 提供凭证，避免泄漏到版本库。
+- 统一通过 API Header 提供森空岛 Token，后端不再依赖环境变量或硬编码凭证。
 
 ## 2. 包及层级设计
 
@@ -46,10 +46,9 @@ com.karaik.gamebot
 
 ## 4. 凭证与安全
 
-- 在 `backend/.env.example` 提供 `HYPERGRYPH_TOKEN` 样例，开发者复制为 `.env` 或直接设置 shell 环境变量；
-- `application.yml` 通过 `hypergryph.token=${HYPERGRYPH_TOKEN:}` 引用环境变量，实现零硬编码；
-- 生产环境需通过 CI/CD 的 Secrets 或密钥管理服务注入该变量；
-- 所有日志、异常信息禁止打印完整 Token。
+- 调用方在 `POST /api/skland/credentials/{userKey}` 时，通过 Header `X-SKLAND-TOKEN` 提供森空岛 Token，后端写入 `SklandTokenStore` 进行短期缓存；
+- Body 仅保留可选 `uid` 字段，避免 Token 落盘或写入 `.env`；
+- 生产环境应通过 HTTPS/内网保证 Header 不被窃取，日志中禁止打印 Token。
 
 ## 5. 交付要求
 
@@ -58,4 +57,3 @@ com.karaik.gamebot
 - 每完成一个阶段，需同步更新 `backend/Agent.md` 与根 `Agent.md`，记录新的模块/接口/配置。
 
 （阶段 0 完成，后续按 `backend/todolist1.md` 阶段 1 开始编码。）
-

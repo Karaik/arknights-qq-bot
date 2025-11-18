@@ -15,7 +15,7 @@ mvn spring-boot:run  # 以 dev 配置启动（内存数据库，端口 8080）
 ```
 
 默认激活 `dev` profile，使用 MySQL 模式的内存 H2。若需要连接真实 MySQL，请设置 `SPRING_PROFILES_ACTIVE=mysql` 并在 `application.yml` 中补充账号信息。
-- 进行 API 认证时，需要在 backend 目录下复制 `.env.example` 为 `.env`，或在运行命令前导出 `HYPERGRYPH_TOKEN` 环境变量（仅用于开发/测试）。
+- 森空岛 Token 通过调用 `POST /api/skland/credentials/{userKey}` 并在 Header 中填写 `X-SKLAND-TOKEN` 来绑定，无需配置额外环境变量。
 
 ## 实现注意事项
 
@@ -33,6 +33,7 @@ mvn spring-boot:run  # 以 dev 配置启动（内存数据库，端口 8080）
 - **森空岛凭证**：通过 `POST /api/skland/credentials/{userKey}` 绑定每个 userKey 的森空岛 Token/UID，`RoguelikeService` 会自动读取 `SklandTokenStore` 调用官方接口。
 - **测试与验证**：阶段 6 文档 `backend/docs/roguelike/testing-stage6.md` 汇总单元/集成测试覆盖与性能基线。
 - **联调文档**：阶段 7 文档 `backend/docs/roguelike/integration-stage7.md` 说明 Swagger/OpenAPI 获取方式、Mock 数据与调用顺序。
+- **调用 Flow 参考**：`backend/docs/roguelike/backend-call-flow.md` 以图文并茂的形式描述 Token 绑定、刷新、分析的具体链路与配置项归属，排查参数问题时可直接对照。
 
 ## 交接前检查
 
