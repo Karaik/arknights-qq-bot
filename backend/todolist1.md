@@ -37,12 +37,12 @@
 - [x] **文档同步**：说明表结构、实体关系与迁移策略。
 
 ## 阶段 3：主题配置与解析接口
-- [ ] **资源整理**：在 `resources/roguelike/themes/` 存放每个主题的 JSON/YAML 配置。
-- [ ] **配置加载器**：实现 `RoguelikeThemeRegistry`，启动时加载并校验主题配置，按 `themeId/name` 索引。
-- [ ] **Analyzer 接口**：定义 `RoguelikeThemeAnalyzer`，方法包含 `supports` 与 `analyze`。
-- [ ] **抽象实现**：提供 `AbstractThemeAnalyzer` 处理共性流程，便于主题子类微调字段或规则。
-- [ ] **首个主题**：为 `萨卡兹的无终奇语` 在 `roguelike.theme.skadi` 下实现 analyzer，验证流程可运行。
-- [ ] **文档同步**：写明配置目录结构、Registry 机制、Analyzer 扩展步骤。
+- [x] **资源整理**：在 `resources/roguelike/themes/` 存放每个主题的 JSON 配置。
+- [x] **配置加载器**：实现 `RoguelikeThemeRegistry`，启动时加载并校验主题配置，按 `themeId/name` 索引。
+- [x] **Analyzer 接口**：定义 `RoguelikeThemeAnalyzer`，方法包含 `supports` 与 `analyze`。
+- [x] **抽象实现**：提供 `AbstractThemeAnalyzer` 处理共性流程，便于主题子类微调字段或规则。
+- [x] **首个主题**：为 `萨卡兹的无终奇语` 在 `roguelike.theme.skadi` 下实现 analyzer 并配套单测。
+- [x] **文档同步**：写明配置目录结构、Registry 机制、Analyzer 扩展步骤。
 
 ## 阶段 4：业务服务层
 - [ ] **RoguelikeService**：
