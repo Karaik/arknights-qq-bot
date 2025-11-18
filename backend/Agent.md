@@ -15,6 +15,7 @@ mvn spring-boot:run  # 以 dev 配置启动（内存数据库，端口 8080）
 ```
 
 默认激活 `dev` profile，使用 MySQL 模式的内存 H2。若需要连接真实 MySQL，请设置 `SPRING_PROFILES_ACTIVE=mysql` 并在 `application.yml` 中补充账号信息。
+- 进行 API 认证时，需要在 backend 目录下复制 `.env.example` 为 `.env`，或在运行命令前导出 `HYPERGRYPH_TOKEN` 环境变量（仅用于开发/测试）。
 
 ## 实现注意事项
 
@@ -23,10 +24,10 @@ mvn spring-boot:run  # 以 dev 配置启动（内存数据库，端口 8080）
 3. **参数校验**：优先使用 `jakarta.validation` 注解并配合 `@Valid`，异常统一转换成 `ApiResponse#error`。
 4. **OpenAPI**：新增 Controller 自动出现在 SpringDoc 中，路径务必置于 `/api` 前缀下。
 5. **测试**：新增接口时复制 `HealthControllerTest` 的写法，用 MockMvc 校验状态码与响应结构。
+- **Roguelike 模块规划**：阶段 0 已在 `backend/docs/roguelike/architecture-stage0.md` 定义 `com.karaik.gamebot.roguelike` 包结构与多主题策略，实现时需遵循该分层。
 
 ## 交接前检查
 
 - 若引入新的配置文件、Profile 或跨模块契约，务必同步更新本 `Agent.md`。
 - 保证 `application.yml` 在无外部依赖下亦可运行（H2 或 Mock 服务）。
 - 提交前必须让 `mvn -q test` 通过。
-

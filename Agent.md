@@ -14,6 +14,7 @@
    - Java 17 / Maven 3.9+
    - Node.js 20 LTS（自带 npm）
    - Kotlin 编译器由 Maven 插件自动拉取
+   - 进行后端（开发/测试）时，需要配置环境变量 `HYPERGRYPH_TOKEN`（可复制 `backend/.env.example` 为本地 `.env`，或直接在 shell 环境中导出）
 2. **保持构建通过**
    - 后端：`mvn -q -f backend/pom.xml test`
    - 前端：在 `frontend/` 目录运行 `npm install && npm run build`
@@ -45,4 +46,3 @@
 3. 若调整了公共契约（DTO、路由、环境变量等），保证其它模块也完成同步。
 
 遵守以上规则即可让新的代码代理快速介入并持续扩展该项目。
-
