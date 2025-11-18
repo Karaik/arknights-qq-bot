@@ -7,7 +7,7 @@ import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
 object AknBotLauncher {
-    private val logger: MiraiLogger = MiraiLogger.Factory.create(AknBotLauncher::class.java.simpleName)
+    private val logger: MiraiLogger = MiraiLogger.Factory.create(AknBotLauncher::class.java)
 
     @JvmStatic
     fun main(args: Array<String>) {

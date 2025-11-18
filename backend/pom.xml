@@ -12,9 +12,9 @@
     </parent>
 
     <groupId>com.karaik.gamebot</groupId>
-    <artifactId>arknights-qq-bot-backend</artifactId>
+    <artifactId>backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>arknights-qq-bot-backend</name>
+    <name>backend</name>
     <description>Arknights battle report backend service</description>
 
     <properties>

@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.karaik.gamebot</groupId>
-    <artifactId>arknights-qq-bot-qq</artifactId>
+    <artifactId>bot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>arknights-qq-bot-qq</name>
+    <name>bot</name>
     <description>Arknights QQ bot based on Mirai</description>
 
     <properties>

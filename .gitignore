@@ -38,3 +38,6 @@ Desktop.ini
 .env
 .env.*
 frontend/.env.local
+
+# 其它
+backend/src/main/resources/example
