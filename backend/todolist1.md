@@ -45,13 +45,13 @@
 - [x] **文档同步**：写明配置目录结构、Registry 机制、Analyzer 扩展步骤。
 
 ## 阶段 4：业务服务层
-- [ ] **RoguelikeService**：
-  - [ ] 调用客户端刷新 raw data，并将 `records` 落表
-  - [ ] 基于 `topics` 自动匹配 theme/analyzer
-  - [ ] 聚合分析结果为统一 DTO
-- [ ] **多 UID 支持**：预留账号映射（用户→多 UID），供前端/机器人挑选。
-- [ ] **缓存策略**：实现短期缓存或手动刷新机制，防止频繁访问 API。
-- [ ] **文档同步**：描述服务职责、缓存策略、多 UID 设计。
+- [x] **RoguelikeService**：
+  - [x] 调用客户端刷新 raw data，并将 `records` 落表
+  - [x] 基于 `topics` 匹配 theme/analyzer
+  - [x] 聚合分析结果为统一 DTO
+- [x] **多 UID 支持**：预留用户到 UID 的映射接口。
+- [x] **缓存策略**：实现短期缓存/手动刷新逻辑。
+- [x] **文档同步**：描述服务职责、缓存策略、多 UID 设计。
 
 ## 阶段 5：API 层与对接
 - [ ] **REST 控制器**：例如 `RoguelikeController` 提供：

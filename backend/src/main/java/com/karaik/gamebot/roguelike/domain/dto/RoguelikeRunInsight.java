@@ -1,38 +1,15 @@
 package com.karaik.gamebot.roguelike.domain.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class RoguelikeRunInsight {
-    private final String runId;
-    private final boolean success;
-    private final String ending;
-    private final String squad;
-    private final String startDate;
-
-    public RoguelikeRunInsight(String runId, boolean success, String ending, String squad, String startDate) {
-        this.runId = runId;
-        this.success = success;
-        this.ending = ending;
-        this.squad = squad;
-        this.startDate = startDate;
-    }
-
-    public String getRunId() {
-        return runId;
-    }
-
-    public boolean isSuccess() {
-        return success;
-    }
-
-    public String getEnding() {
-        return ending;
-    }
-
-    public String getSquad() {
-        return squad;
-    }
-
-    public String getStartDate() {
-        return startDate;
-    }
+    private String runId;
+    private boolean success;
+    private String ending;
+    private String squad;
+    private String startDate;
 }
 
