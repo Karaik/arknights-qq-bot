@@ -1,13 +1,14 @@
 # 集成战略模块阶段 4 – 业务服务
 
-## 1. 账号与 UID
-- `RoguelikeAccountService`：抽象用户键 → 游戏 UID 的映射，默认实现 `SimpleRoguelikeAccountService` 以 Map 形式维护绑定（未绑定时直接返回输入）。
-- 通过预留接口便于未来挂接数据库或外部账号系统，当前阶段仅提供示例实现。
+## 1. 账号与森空岛凭证
+- `RoguelikeAccountService`：抽象用户键 → 游戏 UID 的映射，默认实现 `RoguelikeAccountServiceImpl` 以 Map 形式维护绑定（未绑定时直接返回输入）。
+- `SklandTokenStore`：存储 userKey 对应的森空岛 Hypergryph Token（默认 InMemory，可扩展至数据库/配置中心）。
+- 通过这些抽象，可在后续阶段挂接正式的账号系统与凭证管理。
 
 ## 2. 核心服务
 
 `RoguelikeService` 负责 orchestrate：
-1. 使用 `RoguelikeAuthService` 完成认证并得到 `cred/token/uid`。
+1. 基于 `userKey` 从 `SklandTokenStore` 取出森空岛 Token，调用 `RoguelikeAuthService` 完成认证并得到 `cred/token/uid`。
 2. 调用 `RoguelikeHttpClient` 拉取最新 `/game/arknights/rogue` 数据。
 3. 合并记录：`RoguelikeRunRepository.saveRuns(uid, themeId, records)`。
 4. 选择主题：

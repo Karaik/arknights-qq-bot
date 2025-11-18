@@ -13,4 +13,8 @@
   - `backend/docs/roguelike/persistence-stage2.md`
   - `backend/docs/roguelike/theme-stage3.md`
   - `backend/docs/roguelike/service-stage4.md`
+  - `backend/docs/roguelike/api-stage5.md`
+  - `backend/docs/roguelike/testing-stage6.md`
+  - `backend/docs/roguelike/integration-stage7.md`
+- 森空岛凭证绑定：`POST /api/skland/credentials/{userKey}`，Body 需提供 `hyperToken`（森空岛 Token）和可选 `uid`。绑定后即可通过 `/api/roguelike/...` 刷新/查询。
 - 数据库脚本与说明：`database/ddl/`、`database/docs/README.md`。

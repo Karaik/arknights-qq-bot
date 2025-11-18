@@ -9,5 +9,9 @@ public interface RoguelikeAccountService {
      * 根据传入的用户标识解析出真实游戏 UID。
      */
     String resolveUid(String userKey);
-}
 
+    /**
+     * 绑定或更新 userKey 对应的游戏 UID。
+     */
+    void bind(String userKey, String uid);
+}

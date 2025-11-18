@@ -10,9 +10,10 @@
 
 | Method & Path | 描述 | 请求参数 | 备注 |
 |---------------|------|----------|------|
+| `POST /api/skland/credentials/{userKey}` | 绑定/更新森空岛 Token 与 UID | Header `X-API-KEY`，Body：`hyperToken`、`uid` | 使用 userKey 管理各自的森空岛凭证 |
 | `GET /api/roguelike/themes` | 列出所有可用主题 | Header `X-API-KEY` | 返回 `RoguelikeThemeSummary` 列表 |
-| `GET /api/roguelike/{userKey}/{themeId}/analysis?refresh=false` | 查询指定主题的分析结果 | `userKey`：业务账号；`themeId`：主题 ID（或名称）；`refresh`：可选，是否强制拉取最新 | 若缓存/数据库无数据，返回 404 |
-| `POST /api/roguelike/{userKey}/refresh?themeId=` | 立即拉取并分析最新数据 | `userKey`：业务账号；`themeId`：可选，未提供则使用 API 返回的当前主题 | 适用于 Bot 主动刷新 |
+| `GET /api/roguelike/{userKey}/{themeId}/analysis?refresh=false` | 查询指定主题的分析结果 | `userKey`：业务标识（将用于查找已绑定的 UID/token）；`themeId`：主题 ID（或名称）；`refresh`：可选，是否强制拉取最新 | 若缓存/数据库无数据，返回 404 |
+| `POST /api/roguelike/{userKey}/refresh?themeId=` | 立即拉取并分析最新数据 | `userKey`：业务标识；`themeId`：可选，未提供则使用 API 返回的当前主题 | 适用于 Bot 主动刷新 |
 
 - 响应均使用 `ApiResponse<T>` 包裹，成功 `code=0`，失败返回对应 HTTP 状态。
 - `RoguelikeAnalysisResult` 字段：`themeId/name/totalRuns/winRate/recentRuns`；`recentRuns` 为 `RoguelikeRunInsight`。

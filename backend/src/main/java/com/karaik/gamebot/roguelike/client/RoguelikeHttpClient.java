@@ -30,9 +30,9 @@ public class RoguelikeHttpClient {
                 .build();
     }
 
-    public OAuthCodeResponse requestOAuthCode() {
+    public OAuthCodeResponse requestOAuthCode(String hyperToken) {
         return postJson(properties.getEndpoint().getGrantUrl(),
-                Map.of("token", properties.getToken(), "appCode", properties.getApp().getAppCode(), "type", 0),
+                Map.of("token", hyperToken, "appCode", properties.getApp().getAppCode(), "type", 0),
                 OAuthCodeResponse.class);
     }
 

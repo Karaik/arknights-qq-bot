@@ -5,6 +5,7 @@ import com.karaik.gamebot.roguelike.client.RoguelikeHttpClient;
 import com.karaik.gamebot.roguelike.config.RoguelikeConfigException;
 import com.karaik.gamebot.roguelike.config.RoguelikeThemeConfig;
 import com.karaik.gamebot.roguelike.config.RoguelikeThemeRegistry;
+import com.karaik.gamebot.skland.credential.SklandTokenStore;
 import com.karaik.gamebot.roguelike.domain.auth.AuthFlow;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeAnalysisResult;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeThemeSummary;
@@ -30,6 +31,7 @@ public class RoguelikeService {
     private final RoguelikeRunRepository repository;
     private final RoguelikeThemeRegistry registry;
     private final RoguelikeAccountService accountService;
+    private final SklandTokenStore tokenStore;
     private final List<RoguelikeThemeAnalyzer> analyzers;
     private final ConcurrentHashMap<String, CacheEntry> cache = new ConcurrentHashMap<>();
     private final Duration cacheTtl = Duration.ofMinutes(5);
@@ -39,18 +41,21 @@ public class RoguelikeService {
                             RoguelikeRunRepository repository,
                             RoguelikeThemeRegistry registry,
                             RoguelikeAccountService accountService,
+                            SklandTokenStore tokenStore,
                             List<RoguelikeThemeAnalyzer> analyzers) {
         this.authService = authService;
         this.httpClient = httpClient;
         this.repository = repository;
         this.registry = registry;
         this.accountService = accountService;
+        this.tokenStore = tokenStore;
         this.analyzers = analyzers;
     }
 
     public RoguelikeAnalysisResult refreshAndAnalyze(String userKey, String themeIdOrName) {
         String uid = accountService.resolveUid(userKey);
-        AuthFlow flow = authService.authenticate();
+        String hyperToken = tokenStore.getToken(userKey);
+        AuthFlow flow = authService.authenticate(hyperToken);
         var response = httpClient.requestRogueInfo(flow.cred(), flow.token(), flow.uid());
         Map<String, Object> data = response.data();
 
