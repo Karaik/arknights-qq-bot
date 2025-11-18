@@ -2,6 +2,7 @@ package com.karaik.gamebot.roguelike.service;
 
 import com.karaik.gamebot.roguelike.client.RoguelikeApiException;
 import com.karaik.gamebot.roguelike.client.RoguelikeHttpClient;
+import com.karaik.gamebot.roguelike.config.RoguelikeApiProperties;
 import com.karaik.gamebot.roguelike.domain.auth.AuthFlow;
 import com.karaik.gamebot.roguelike.domain.auth.CredTokenResponse;
 import com.karaik.gamebot.roguelike.domain.auth.OAuthCodeResponse;
@@ -12,12 +13,18 @@ import org.springframework.stereotype.Service;
 public class RoguelikeAuthService {
 
     private final RoguelikeHttpClient httpClient;
+    private final RoguelikeApiProperties properties;
 
-    public RoguelikeAuthService(RoguelikeHttpClient httpClient) {
+    public RoguelikeAuthService(RoguelikeHttpClient httpClient, RoguelikeApiProperties properties) {
         this.httpClient = httpClient;
+        this.properties = properties;
     }
 
     public AuthFlow authenticate() {
+        if (properties.getToken() == null || properties.getToken().isBlank()) {
+            throw new RoguelikeApiException("Hypergryph token is missing; please configure HYPERGRYPH_TOKEN.");
+        }
+
         OAuthCodeResponse codeResponse = httpClient.requestOAuthCode();
         if (codeResponse == null || codeResponse.data() == null || codeResponse.data().code() == null) {
             throw new RoguelikeApiException("Grant response missing code");

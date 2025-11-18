@@ -3,14 +3,11 @@ package com.karaik.gamebot.roguelike.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.validation.annotation.Validated;
 
-import jakarta.validation.constraints.NotBlank;
-
 @Validated
 @org.springframework.stereotype.Component
 @ConfigurationProperties(prefix = "hypergryph")
 public class RoguelikeApiProperties {
 
-    @NotBlank
     private String token;
 
     private final Endpoint endpoint = new Endpoint();

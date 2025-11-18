@@ -25,6 +25,8 @@ mvn spring-boot:run  # 以 dev 配置启动（内存数据库，端口 8080）
 4. **OpenAPI**：新增 Controller 自动出现在 SpringDoc 中，路径务必置于 `/api` 前缀下。
 5. **测试**：新增接口时复制 `HealthControllerTest` 的写法，用 MockMvc 校验状态码与响应结构。
 - **Roguelike 模块规划**：阶段 0 已在 `backend/docs/roguelike/architecture-stage0.md` 定义 `com.karaik.gamebot.roguelike` 包结构与多主题策略，实现时需遵循该分层。
+- **通信/认证基线**：阶段 1 文档 `backend/docs/roguelike/platform-stage1.md` 记录了配置模型、签名算法、HTTP 客户端与认证流程，请在扩展时保持一致。
+- **持久化落地**：阶段 2 在 `backend/docs/roguelike/persistence-stage2.md` 描述 `roguelike_run` 表、MyBatis-Plus 实体与 `RoguelikeRunRepository`，以及 `scripts/sqlite_to_mysql.py` 的迁移用法；SQL 脚本统一放在根目录 `database/ddl`，`dev` Profile 自动执行 `V1__init_roguelike_schema.sql`。
 
 ## 交接前检查
 

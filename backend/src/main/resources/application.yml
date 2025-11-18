@@ -48,6 +48,10 @@ spring:
     url: jdbc:h2:mem:arknights_bot;MODE=MySQL;DATABASE_TO_UPPER=false;DB_CLOSE_DELAY=-1
     username: sa
     password:
+  sql:
+    init:
+      mode: always
+      schema-locations: file:../database/ddl/V1__init_roguelike_schema.sql
 
 ---
 spring:
@@ -58,3 +62,6 @@ spring:
     url: jdbc:mysql://localhost:3306/arknights_bot?useSSL=false&serverTimezone=UTC&characterEncoding=utf8mb4
     username: your_user
     password: your_password
+  sql:
+    init:
+      mode: never

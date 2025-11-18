@@ -30,11 +30,11 @@
 - [x] **文档同步**：记录配置模型、HTTP 客户端、异常策略。
 
 ## 阶段 2：持久化层
-- [ ] **数据库表**：`roguelike_run`（`id` PK，`uid`，`theme_id`，`start_ts`，`record_json`，`created_at`，`updated_at`；可选结构化列 `score`、`success` 等）。
-- [ ] **实体 & Mapper**：定义 `RoguelikeRunEntity`、`RoguelikeRunMapper`（MyBatis-Plus），提供批量插入/更新。
-- [ ] **仓储实现**：`RoguelikeRunRepository` 暴露 `saveRuns`、`listRuns`，隐藏底层 ORM。
-- [ ] **迁移脚本**：如需从旧 SQLite 导入，提供脚本或工具类。
-- [ ] **文档同步**：说明表结构、实体关系与迁移策略。
+- [x] **数据库表**：`roguelike_run`（`id` PK，`uid`，`theme_id`，`start_ts`，`record_json`，`created_at`，`updated_at`；可选结构化列 `score`、`success` 等）。
+- [x] **实体 & Mapper**：定义 `RoguelikeRunEntity`、`RoguelikeRunMapper`（MyBatis-Plus），提供批量插入/更新。
+- [x] **仓储实现**：`RoguelikeRunRepository` 暴露 `saveRuns`、`listRuns`，隐藏底层 ORM。
+- [x] **迁移脚本**：如需从旧 SQLite 导入，提供脚本或工具类。
+- [x] **文档同步**：说明表结构、实体关系与迁移策略。
 
 ## 阶段 3：主题配置与解析接口
 - [ ] **资源整理**：在 `resources/roguelike/themes/` 存放每个主题的 JSON/YAML 配置。
