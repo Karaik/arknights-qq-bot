@@ -7,6 +7,7 @@ import com.karaik.gamebot.roguelike.config.RoguelikeThemeConfig;
 import com.karaik.gamebot.roguelike.config.RoguelikeThemeRegistry;
 import com.karaik.gamebot.roguelike.domain.auth.AuthFlow;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeAnalysisResult;
+import com.karaik.gamebot.roguelike.domain.dto.RoguelikeThemeSummary;
 import com.karaik.gamebot.roguelike.repository.RoguelikeRunRepository;
 import com.karaik.gamebot.roguelike.theme.api.RoguelikeThemeAnalyzer;
 import org.springframework.stereotype.Service;
@@ -86,6 +87,12 @@ public class RoguelikeService {
         return results;
     }
 
+    public List<RoguelikeThemeSummary> listThemes() {
+        return registry.listThemes().stream()
+                .map(cfg -> new RoguelikeThemeSummary(cfg.getThemeId(), cfg.getName()))
+                .toList();
+    }
+
     private RoguelikeAnalysisResult getCachedOrBuild(String uid, RoguelikeThemeConfig config) {
         CacheEntry entry = cache.get(cacheKey(uid, config.getThemeId()));
         if (entry != null && entry.expireAt().isAfter(Instant.now())) {
@@ -149,4 +156,3 @@ public class RoguelikeService {
 
     private record CacheEntry(RoguelikeAnalysisResult result, Instant expireAt) {}
 }
-

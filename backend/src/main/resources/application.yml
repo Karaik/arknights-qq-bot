@@ -21,6 +21,9 @@ hypergryph:
     user-agent: Skland/1.35.0 (com.hypergryph.skland; build:103500035; Android 32; ) Okhttp/4.11.0
     version-name: 1.35.0
 
+roguelike:
+  api-key: local-dev-key
+
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
@@ -60,8 +63,8 @@ spring:
       on-profile: mysql
   datasource:
     url: jdbc:mysql://localhost:3306/arknights_bot?useSSL=false&serverTimezone=UTC&characterEncoding=utf8mb4
-    username: your_user
-    password: your_password
+    username: root
+    password: 123456
   sql:
     init:
       mode: never

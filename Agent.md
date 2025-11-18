@@ -7,7 +7,7 @@
 - **backend/**：Java 17 + Spring Boot 3.5.7，已提供 `/api/health`，并集成 MyBatis-Plus、SpringDoc 等通用依赖。
 - **frontend/**：React 18 + TypeScript + Vite，包含 Login、Dashboard 占位页面以及统一的 HTTP 请求封装。
 - **bot/**：Kotlin 17 + Mirai + OkHttp，提供配置加载与定时调用后端健康检查的调度器，后续可在此基础上实现 QQ 指令逻辑。
-- **Roguelike 规划**：阶段文档位于 `backend/docs/roguelike/`（Stage0 架构、Stage1 平台、Stage2 持久化、Stage3 主题配置、Stage4 服务层），所有后续实现须遵守分层与数据库流程；SQL 统一存放在 `database/ddl/`，便于 DBA 审核与执行。
+- **Roguelike 规划**：阶段文档位于 `backend/docs/roguelike/`（Stage0 架构、Stage1 平台、Stage2 持久化、Stage3 主题、Stage4 服务、Stage5 API、Stage6 测试），所有后续实现须遵守分层与数据库流程；SQL 统一存放在 `database/ddl/`，便于 DBA 审核与执行。
 
 ## 常用操作
 

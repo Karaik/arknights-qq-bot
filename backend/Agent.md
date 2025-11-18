@@ -29,6 +29,8 @@ mvn spring-boot:run  # 以 dev 配置启动（内存数据库，端口 8080）
 - **持久化落地**：阶段 2 在 `backend/docs/roguelike/persistence-stage2.md` 描述 `roguelike_run` 表、MyBatis-Plus 实体与 `RoguelikeRunRepository`，以及 `scripts/sqlite_to_mysql.py` 的迁移用法；SQL 脚本统一放在根目录 `database/ddl`，`dev` Profile 自动执行 `V1__init_roguelike_schema.sql`。
 - **主题配置与解析**：阶段 3 文档 `backend/docs/roguelike/theme-stage3.md` 描述 `roguelike/themes/*.json`、`RoguelikeThemeRegistry` 与 `RoguelikeThemeAnalyzer` 的扩展方式，新增主题时务必遵循。
 - **业务服务层**：阶段 4 文档 `backend/docs/roguelike/service-stage4.md` 介绍了 `RoguelikeService`、账号映射与缓存策略；使用 `RoguelikeAccountService` 绑定多 UID。
+- **API 层**：阶段 5 文档 `backend/docs/roguelike/api-stage5.md` 描述 REST 接口、API Key 鉴权与响应模型。
+- **测试与验证**：阶段 6 文档 `backend/docs/roguelike/testing-stage6.md` 汇总单元/集成测试覆盖与性能基线。
 
 ## 交接前检查
 

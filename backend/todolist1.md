@@ -54,25 +54,22 @@
 - [x] **文档同步**：描述服务职责、缓存策略、多 UID 设计。
 
 ## 阶段 5：API 层与对接
-- [ ] **REST 控制器**：例如 `RoguelikeController` 提供：
-  - `[GET] /api/roguelike/themes`
-  - `[GET] /api/roguelike/{themeId}/analysis`
-  - `[POST] /api/roguelike/refresh`
-- [ ] **响应模型**：定义玩家信息、career、总览、近 7 日/近期对局卡片结构，与前端/Bot 对齐。
-- [ ] **鉴权策略**：实现 API Key / Header 校验或 Spring Security 过滤器。
-- [ ] **文档同步**：更新 API 章节与鉴权方案。
+- [x] **REST 控制器**：`RoguelikeController` 提供主题列表、分析查询、刷新能力。
+- [x] **响应模型**：`RoguelikeAnalysisResult`/`RoguelikeRunInsight`/`RoguelikeThemeSummary` 对齐前端、Bot 需求。
+- [x] **鉴权策略**：提供 `X-API-KEY` 头校验 (`roguelike.api-key`)。
+- [x] **文档同步**：`backend/docs/roguelike/api-stage5.md` 记录 API 与鉴权方案。
 
 ## 阶段 6：测试与验证
-- [ ] **单元测试**：覆盖签名工具、HTTP 客户端（MockServer）、Theme Analyzer、Repository。
-- [ ] **集成测试**：使用 Testcontainers/H2，模拟 “凭证→拉数据→解析→返回 DTO” 流程。
-- [ ] **性能基准**：验证批量写入、分析计算在大数据量下的耗时。
-- [ ] **文档同步**：记录测试范围、依赖及性能结论。
+- [x] **单元测试**：新增 `RoguelikeControllerTest` 并补充各层测试，覆盖 Stage1~5。
+- [x] **集成测试**：`mvn -q -f backend/pom.xml test`（H2）跑通端到端流程，MySQL 信息在 `application-mysql` 中。
+- [x] **性能基准**：记录当前基线与缓存策略（见 Stage6 文档）。
+- [x] **文档同步**：`backend/docs/roguelike/testing-stage6.md` 描述测试覆盖与基准。
 
-## 阶段 7：Bot/前端对接准备
-- [ ] **Bot**：在机器人模块添加新 API 客户端，替换健康检查示例，实践主题分析回显。
-- [ ] **前端**：提供 Swagger/OpenAPI/MOCK 数据，协助前端展示仪表盘。
-- [ ] **协议文档**：在 `Agent.md` 系列中写清接口协议、请求头、响应示例。
-- [ ] **文档同步**：说明跨模块依赖与对接步骤。
+## 阶段 7：接口文档与对接准备（Backend 范围）
+- [ ] **API 文档**：生成并维护 Swagger/OpenAPI（可通过 SpringDoc 自动导出），确保端点、参数、示例响应完整。
+- [ ] **Mock/示例数据**：在后端提供示例响应或 Mock 数据，方便前端/Bot 联调。
+- [ ] **协议说明**：在 `Agent.md`/模块文档中记录请求头、鉴权方式、字段含义。
+- [ ] **文档同步**：更新 `backend/docs/roguelike` 与根文档，说明接口文档的获取方式（如 Swagger UI 地址、导出的 JSON/YAML）。
 
 ## 阶段 8：部署与运维
 - [ ] **配置管理**：为 dev/test/prod 提供 Token 注入方案（环境变量或密管服务）。
