@@ -45,7 +45,7 @@
 - [x] **文档同步**：写明配置目录结构、Registry 机制、Analyzer 扩展步骤。
 
 ## 阶段 4：业务服务层
-- [x] **RoguelikeService**：
+- [x] **RoguelikeApplicationService**（默认实现 `DefaultRoguelikeApplicationService`）：
   - [x] 调用客户端刷新 raw data，并将 `records` 落表
   - [x] 基于 `topics` 匹配 theme/analyzer
   - [x] 聚合分析结果为统一 DTO
@@ -66,12 +66,21 @@
 - [x] **文档同步**：`backend/docs/roguelike/testing-stage6.md` 描述测试覆盖与基准。
 
 ## 阶段 7：接口文档与对接准备（Backend 范围）
-- [ ] **API 文档**：生成并维护 Swagger/OpenAPI（可通过 SpringDoc 自动导出），确保端点、参数、示例响应完整。
-- [ ] **Mock/示例数据**：在后端提供示例响应或 Mock 数据，方便前端/Bot 联调。
-- [ ] **协议说明**：在 `Agent.md`/模块文档中记录请求头、鉴权方式、字段含义。
-- [ ] **文档同步**：更新 `backend/docs/roguelike` 与根文档，说明接口文档的获取方式（如 Swagger UI 地址、导出的 JSON/YAML）。
+- [x] **API 文档**：生成并维护 Swagger/OpenAPI（可通过 SpringDoc 自动导出），确保端点、参数、示例响应完整。
+- [x] **Mock/示例数据**：在后端提供示例响应或 Mock 数据，方便前端/Bot 联调。
+- [x] **协议说明**：在 `Agent.md`/模块文档中记录请求头、鉴权方式、字段含义。
+- [x] **文档同步**：更新 `backend/docs/roguelike` 与根文档，说明接口文档的获取方式（如 Swagger UI 地址、导出的 JSON/YAML）。
 
-## 阶段 8：部署与运维
+## 阶段 8：现状复盘与整改计划
+- [x] **层级关系梳理**：通过引入 `RoguelikeApplicationService` 接口与 `DefaultRoguelikeApplicationService` 实现，Controller 仅负责授权与入参校验，核心逻辑集中在应用层，避免跨层互调。
+- [x] **业务逻辑解耦**：认证链、账号映射、主题分析分别由 `RoguelikeAuthService`、`RoguelikeAccountService`、`RoguelikeThemeAnalyzer` 管理，刷新操作只扮演编排角色，便于共同开发。
+- [x] **分层思想落地**：所有依赖均通过构造注入与接口抽象，新增 Lombok `@RequiredArgsConstructor`，阻止随意 `new` 其它层组件的情况。
+- [x] **日志规范**：统一使用 `event=xxx key=value` 模式输出，外部 API 错误会连同响应体一并写入日志，方便远程排查。
+- [x] **接口一致性**：Swagger/Knife4j 中所有路径均以 `/api/roguelike` 或 `/api/skland` 为前缀，鉴权 Header、参数示例、Javadoc 也统一，方便团队协作。
+- [x] **Lombok 引入与代码简化**：控制器、服务、配置类均按需开启 `@RequiredArgsConstructor`/`@Data`，移除样板代码，提高可读性。
+- [x] **业务注释补齐**：核心入口（Controller/API、Service 接口/实现、绑定接口）补充了中文 Javadoc，明确输入输出和注意事项，降低接入门槛。
+
+## 阶段 9：部署与运维
 - [ ] **配置管理**：为 dev/test/prod 提供 Token 注入方案（环境变量或密管服务）。
 - [ ] **监控指标**：记录调用成功率、失败原因、最近刷新时间；需要时推送到监控系统。
 - [ ] **告警策略**：当认证失败或 API 变更时及时告警。

@@ -28,11 +28,12 @@ mvn spring-boot:run  # 以 dev 配置启动（内存数据库，端口 8080）
 - **通信/认证基线**：阶段 1 文档 `backend/docs/roguelike/platform-stage1.md` 记录了配置模型、签名算法、HTTP 客户端与认证流程，请在扩展时保持一致。
 - **持久化落地**：阶段 2 在 `backend/docs/roguelike/persistence-stage2.md` 描述 `roguelike_run` 表、MyBatis-Plus 实体与 `RoguelikeRunRepository`，以及 `scripts/sqlite_to_mysql.py` 的迁移用法；SQL 脚本统一放在根目录 `database/ddl`，`dev` Profile 自动执行 `V1__init_roguelike_schema.sql`。
 - **主题配置与解析**：阶段 3 文档 `backend/docs/roguelike/theme-stage3.md` 描述 `roguelike/themes/*.json`、`RoguelikeThemeRegistry` 与 `RoguelikeThemeAnalyzer` 的扩展方式，新增主题时务必遵循。
-- **业务服务层**：阶段 4 文档 `backend/docs/roguelike/service-stage4.md` 介绍了 `RoguelikeService`、账号映射与缓存策略；使用 `RoguelikeAccountService` 绑定多 UID。
+- **业务服务层**：阶段 4 文档 `backend/docs/roguelike/service-stage4.md` 介绍了 `RoguelikeApplicationService`（实现类 `DefaultRoguelikeApplicationService`）、账号映射与缓存策略；使用 `RoguelikeAccountService` 绑定多 UID。
 - **API 层**：阶段 5 文档 `backend/docs/roguelike/api-stage5.md` 描述 REST 接口、API Key 鉴权与响应模型。
-- **森空岛凭证**：通过 `POST /api/skland/credentials/{userKey}` 绑定每个 userKey 的森空岛 Token/UID，`RoguelikeService` 会自动读取 `SklandTokenStore` 调用官方接口。
+- **森空岛凭证**：通过 `POST /api/skland/credentials/{userKey}` 绑定每个 userKey 的森空岛 Token/UID，`RoguelikeApplicationService` 会自动读取 `SklandTokenStore` 调用官方接口。
 - **测试与验证**：阶段 6 文档 `backend/docs/roguelike/testing-stage6.md` 汇总单元/集成测试覆盖与性能基线。
 - **联调文档**：阶段 7 文档 `backend/docs/roguelike/integration-stage7.md` 说明 Swagger/OpenAPI 获取方式、Mock 数据与调用顺序。
+- **高可用评估**：阶段 8 文档 `backend/docs/roguelike/ha-stage8.md` 复盘当前系统瓶颈，提出持久化、限流、监控等整改方案。
 - **调用 Flow 参考**：`backend/docs/roguelike/backend-call-flow.md` 以图文并茂的形式描述 Token 绑定、刷新、分析的具体链路与配置项归属，排查参数问题时可直接对照。
 
 ## 交接前检查

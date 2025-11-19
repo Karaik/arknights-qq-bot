@@ -17,7 +17,7 @@ public class RoguelikeExceptionHandler {
 
     @ExceptionHandler(RoguelikeApiException.class)
     public ResponseEntity<ApiResponse<Void>> handleRoguelikeApiException(RoguelikeApiException ex) {
-        log.warn("Roguelike API 异常: {}", ex.getMessage());
+        log.warn("event=roguelike.api.error message={}", ex.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                 .body(ApiResponse.error(HttpStatus.BAD_REQUEST.value(), ex.getMessage()));
     }

@@ -18,7 +18,7 @@
 ## 3. 性能基线
 
 - 目前数据规模较小（测试环境仅存储少量对局记录），`mvn test` 全流程约 12s 完成；
-- `RoguelikeService` 在内存中缓存 5 分钟结果，避免频繁访问远端 API；
+- `RoguelikeApplicationService` 在内存中缓存 5 分钟结果，避免频繁访问远端 API；
 - 后续若出现大量历史记录，可在 `RoguelikeRunRepository` 上增加分页/统计索引，并通过 JMH/自研脚本评估。
 
 ## 4. 文档

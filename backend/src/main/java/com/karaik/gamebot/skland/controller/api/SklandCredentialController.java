@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -24,19 +25,13 @@ import org.springframework.web.server.ResponseStatusException;
 @RestController
 @RequestMapping("/api/skland/credentials")
 @Tag(name = "Skland Credentials", description = "森空岛 Token 与 UID 绑定接口")
+@RequiredArgsConstructor
 public class SklandCredentialController {
 
     private final SklandTokenStore tokenStore;
     private final RoguelikeAccountService accountService;
-    private final String apiKey;
-
-    public SklandCredentialController(SklandTokenStore tokenStore,
-                                      RoguelikeAccountService accountService,
-                                      @Value("${roguelike.api-key:}") String apiKey) {
-        this.tokenStore = tokenStore;
-        this.accountService = accountService;
-        this.apiKey = apiKey;
-    }
+    @Value("${roguelike.api-key:}")
+    private String apiKey;
 
     @PostMapping("/{userKey}")
     @Operation(
@@ -46,6 +41,9 @@ public class SklandCredentialController {
                     @SecurityRequirement(name = "sklandToken")
             }
     )
+    /**
+     * 绑定或更新森空岛 Token 与 UID，供业务方后续刷新数据使用。
+     */
     public ApiResponse<Void> bind(
             @RequestHeader(value = "X-API-KEY", required = false)
             @Parameter(description = "API Key，用于鉴权", example = "local-dev-key") String key,
@@ -58,7 +56,7 @@ public class SklandCredentialController {
         if (body != null && StringUtils.hasText(body.getUid())) {
             accountService.bind(userKey, body.getUid());
         }
-        log.info("成功绑定森空岛 Token userKey={} uidProvided={} tokenPreview={}",
+        log.info("event=skland.bind.success userKey={} uidProvided={} tokenPreview={}",
                 userKey,
                 body != null && StringUtils.hasText(body.getUid()),
                 maskToken(hyperToken));

@@ -1,19 +1,18 @@
 package com.karaik.gamebot.roguelike.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.karaik.gamebot.roguelike.account.RoguelikeAccountService;
 import com.karaik.gamebot.roguelike.client.RoguelikeApiException;
 import com.karaik.gamebot.roguelike.client.RoguelikeHttpClient;
 import com.karaik.gamebot.roguelike.config.RoguelikeConfigException;
 import com.karaik.gamebot.roguelike.config.RoguelikeThemeConfig;
 import com.karaik.gamebot.roguelike.config.RoguelikeThemeRegistry;
-import com.karaik.gamebot.skland.credential.SklandTokenStore;
 import com.karaik.gamebot.roguelike.domain.auth.AuthFlow;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeAnalysisResult;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeThemeSummary;
 import com.karaik.gamebot.roguelike.repository.RoguelikeRunRepository;
 import com.karaik.gamebot.roguelike.theme.api.RoguelikeThemeAnalyzer;
+import com.karaik.gamebot.skland.credential.SklandTokenStore;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
@@ -28,9 +27,13 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * Roguelike 业务应用层，实现账号绑定、官方接口调用与主题分析的聚合。
+ */
 @Slf4j
 @Service
-public class RoguelikeService {
+@RequiredArgsConstructor
+public class DefaultRoguelikeApplicationService implements RoguelikeApplicationService {
 
     private final RoguelikeAuthService authService;
     private final RoguelikeHttpClient httpClient;
@@ -42,39 +45,18 @@ public class RoguelikeService {
     private final ConcurrentHashMap<String, CacheEntry> cache = new ConcurrentHashMap<>();
     private final Duration cacheTtl = Duration.ofMinutes(5);
 
-    public RoguelikeService(RoguelikeAuthService authService,
-                            RoguelikeHttpClient httpClient,
-                            RoguelikeRunRepository repository,
-                            RoguelikeThemeRegistry registry,
-                            RoguelikeAccountService accountService,
-                            SklandTokenStore tokenStore,
-                            List<RoguelikeThemeAnalyzer> analyzers) {
-        this.authService = authService;
-        this.httpClient = httpClient;
-        this.repository = repository;
-        this.registry = registry;
-        this.accountService = accountService;
-        this.tokenStore = tokenStore;
-        this.analyzers = analyzers;
-    }
-
+    @Override
     public RoguelikeAnalysisResult refreshAndAnalyze(String userKey, String themeIdOrName) {
         String uid = accountService.resolveUid(userKey);
         String hyperToken = tokenStore.getToken(userKey);
         if (!StringUtils.hasText(hyperToken)) {
-            log.warn("userKey={} 未绑定森空岛 Token，拒绝刷新", userKey);
+            log.warn("event=refresh.skip userKey={} reason=no-skland-token", userKey);
             throw new RoguelikeApiException("userKey 未绑定森空岛 Token，请先调用 /api/skland/credentials/" + userKey);
         }
-        log.info("刷新肉鸽数据 userKey={} uid={} themeId={}", userKey, uid, themeIdOrName);
+        log.info("event=refresh.start userKey={} uid={} themeId={}", userKey, uid, themeIdOrName);
         AuthFlow flow = authService.authenticate(userKey, hyperToken);
         var response = httpClient.requestRogueInfo(flow.cred(), flow.token(), flow.uid());
         Map<String, Object> data = response.data();
-//        try {
-//            ObjectMapper objectMapper = new ObjectMapper();
-//            log.info("credentials: {} ", objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(data));
-//        } catch (JsonProcessingException e) {
-//            throw new RuntimeException(e);
-//        }
 
         RoguelikeThemeConfig config = registry.getRequired(
                 Optional.ofNullable(themeIdOrName).orElseGet(() -> detectThemeId(data))
@@ -85,9 +67,11 @@ public class RoguelikeService {
         repository.saveRuns(uid, config.getThemeId(), records);
         RoguelikeAnalysisResult result = analyzeFromRepository(uid, config, topic);
         cache.put(cacheKey(uid, config.getThemeId()), new CacheEntry(result, Instant.now().plus(cacheTtl)));
+        log.info("event=refresh.success userKey={} themeId={} runs={}", userKey, config.getThemeId(), records.size());
         return result;
     }
 
+    @Override
     public RoguelikeAnalysisResult getAnalysis(String userKey, String themeIdOrName, boolean refresh) {
         if (refresh) {
             return refreshAndAnalyze(userKey, themeIdOrName);
@@ -97,6 +81,7 @@ public class RoguelikeService {
         return getCachedOrBuild(uid, config);
     }
 
+    @Override
     public List<RoguelikeAnalysisResult> listAnalyses(String userKey) {
         String uid = accountService.resolveUid(userKey);
         List<RoguelikeAnalysisResult> results = new ArrayList<>();
@@ -109,6 +94,7 @@ public class RoguelikeService {
         return results;
     }
 
+    @Override
     public List<RoguelikeThemeSummary> listThemes() {
         return registry.listThemes().stream()
                 .map(cfg -> new RoguelikeThemeSummary(cfg.getThemeId(), cfg.getName()))
@@ -118,6 +104,7 @@ public class RoguelikeService {
     private RoguelikeAnalysisResult getCachedOrBuild(String uid, RoguelikeThemeConfig config) {
         CacheEntry entry = cache.get(cacheKey(uid, config.getThemeId()));
         if (entry != null && entry.expireAt().isAfter(Instant.now())) {
+            log.debug("event=analysis.cache-hit uid={} themeId={}", uid, config.getThemeId());
             return entry.result();
         }
         RoguelikeAnalysisResult result = analyzeFromRepository(uid, config, fallbackTopic(config));

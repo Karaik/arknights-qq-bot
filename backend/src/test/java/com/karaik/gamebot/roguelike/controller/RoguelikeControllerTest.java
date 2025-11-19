@@ -6,7 +6,7 @@ import com.karaik.gamebot.roguelike.controller.api.RoguelikeController;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeAnalysisResult;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeRunInsight;
 import com.karaik.gamebot.roguelike.domain.dto.RoguelikeThemeSummary;
-import com.karaik.gamebot.roguelike.service.RoguelikeService;
+import com.karaik.gamebot.roguelike.service.RoguelikeApplicationService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ class RoguelikeControllerTest {
     private MockMvc mockMvc;
 
     @MockBean
-    private RoguelikeService service;
+    private RoguelikeApplicationService service;
 
     @Autowired
     private ObjectMapper objectMapper;
@@ -88,4 +88,3 @@ class RoguelikeControllerTest {
                 .andExpect(jsonPath("$.data.totalRuns").value(6));
     }
 }
-

@@ -7,7 +7,7 @@
 
 ## 2. 核心服务
 
-`RoguelikeService` 负责 orchestrate：
+`RoguelikeApplicationService`（默认实现 `DefaultRoguelikeApplicationService`）负责 orchestrate：
 1. 基于 `userKey` 从 `SklandTokenStore` 取出森空岛 Token，调用 `RoguelikeAuthService` 完成认证并得到 `cred/token/uid`。
 2. 调用 `RoguelikeHttpClient` 拉取最新 `/game/arknights/rogue` 数据。
 3. 合并记录：`RoguelikeRunRepository.saveRuns(uid, themeId, records)`。
