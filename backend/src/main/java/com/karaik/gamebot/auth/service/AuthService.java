@@ -20,6 +20,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.time.Duration;
+import java.time.Instant;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.Map;
 
 /**
@@ -32,6 +35,10 @@ public class AuthService {
 
     private final AuthProperties properties;
     private final AuthHttpClient httpClient;
+    /**
+     * 手机验证码发送冷却记录，key 为手机号，value 为最近发送时间（秒级）。
+     */
+    private final Map<String, Long> phoneCodeCooldown = new ConcurrentHashMap<>();
 
     private Duration timeout() {
         return httpClient.timeout();
@@ -46,9 +53,9 @@ public class AuthService {
         if (!StringUtils.hasText(request.getPassword())) {
             throw new IllegalArgumentException("密码不能为空");
         }
-        String path = properties.getHypergryph().getTokenByPhonePassword();
+        String path = properties.getHypergryph().getToken_by_phone_password();
         var body = Map.of("phone", request.getPhone(), "password", request.getPassword());
-        return httpClient.postJson(properties.getHypergryph().getBaseUrl(), path, body, TokenByPhonePasswordResponse.class, timeout());
+        return httpClient.postJson(properties.getHypergryph().getBase_url(), path, body, TokenByPhonePasswordResponse.class, timeout());
     }
 
     /**
@@ -57,9 +64,15 @@ public class AuthService {
      */
     public SendPhoneCodeResponse sendPhoneCode(SendPhoneCodeRequest request) {
         validatePhone(request.getPhone());
-        String path = properties.getHypergryph().getSendPhoneCode();
+        enforceCooldown(request.getPhone());
+        if (request.getType() == null || request.getType() != 2) {
+            throw new IllegalArgumentException("验证码类型仅支持 2（短信登录）");
+        }
+        String path = properties.getHypergryph().getSend_phone_code();
         var body = Map.of("phone", request.getPhone(), "type", request.getType());
-        return httpClient.postJson(properties.getHypergryph().getBaseUrl(), path, body, SendPhoneCodeResponse.class, timeout());
+        SendPhoneCodeResponse resp = httpClient.postJson(properties.getHypergryph().getBase_url(), path, body, SendPhoneCodeResponse.class, timeout());
+        phoneCodeCooldown.put(request.getPhone(), Instant.now().getEpochSecond());
+        return resp;
     }
 
     /**
@@ -71,9 +84,9 @@ public class AuthService {
         if (!StringUtils.hasText(request.getCode())) {
             throw new IllegalArgumentException("验证码不能为空");
         }
-        String path = properties.getHypergryph().getTokenByPhoneCode();
+        String path = properties.getHypergryph().getToken_by_phone_code();
         var body = Map.of("phone", request.getPhone(), "code", request.getCode());
-        return httpClient.postJson(properties.getHypergryph().getBaseUrl(), path, body, TokenByPhoneCodeResponse.class, timeout());
+        return httpClient.postJson(properties.getHypergryph().getBase_url(), path, body, TokenByPhoneCodeResponse.class, timeout());
     }
 
     /**
@@ -87,10 +100,10 @@ public class AuthService {
         String path = properties.getHypergryph().getGrant();
         var body = Map.of(
                 "token", request.getToken(),
-                "appCode", properties.getHypergryph().getAppCode(),
+                "appCode", properties.getHypergryph().getApp_code(),
                 "type", 0
         );
-        return httpClient.postJson(properties.getHypergryph().getBaseUrl(), path, body, GrantResponse.class, timeout());
+        return httpClient.postJson(properties.getHypergryph().getBase_url(), path, body, GrantResponse.class, timeout());
     }
 
     /**
@@ -101,9 +114,9 @@ public class AuthService {
         if (!StringUtils.hasText(request.getCode())) {
             throw new IllegalArgumentException("code 不能为空");
         }
-        String path = properties.getSkland().getCredByCode();
+        String path = properties.getSkland().getCred_by_code();
         var body = Map.of("kind", request.getKind(), "code", request.getCode());
-        return httpClient.postJson(properties.getSkland().getBaseUrl(), path, body, CredByCodeResponse.class, timeout());
+        return httpClient.postJson(properties.getSkland().getBase_url(), path, body, CredByCodeResponse.class, timeout());
     }
 
     /**
@@ -114,13 +127,33 @@ public class AuthService {
         if (!StringUtils.hasText(request.getCred()) || !StringUtils.hasText(request.getToken())) {
             throw new IllegalArgumentException("cred/token 不能为空");
         }
-        String path = properties.getSkland().getCheckCred();
-        return httpClient.signedGet(properties.getSkland().getBaseUrl(), path, request.getToken(), request.getCred(), CheckCredResponse.class, timeout());
+        String path = properties.getSkland().getCheck_cred();
+        return httpClient.signedGet(properties.getSkland().getBase_url(), path, request.getToken(), request.getCred(), CheckCredResponse.class, timeout());
     }
 
     private void validatePhone(String phone) {
         if (!StringUtils.hasText(phone)) {
             throw new IllegalArgumentException("手机号不能为空");
+        }
+    }
+
+    /**
+     * 短信冷却校验，若配置 <=0 则不生效。
+     */
+    private void enforceCooldown(String phone) {
+        int cooldown = properties.getHypergryph().getPhone_code_cooldown_seconds();
+        if (cooldown <= 0) {
+            return;
+        }
+        long now = Instant.now().getEpochSecond();
+        Long last = phoneCodeCooldown.get(phone);
+        if (last != null) {
+            long diff = now - last;
+            if (diff < cooldown) {
+                long wait = cooldown - diff;
+                log.warn("event=phone_code.cooldown phone=****{} wait={}s", phone.substring(Math.max(0, phone.length() - 4)), wait);
+                throw new IllegalArgumentException("验证码发送过于频繁，请等待 " + wait + " 秒后重试");
+            }
         }
     }
 }

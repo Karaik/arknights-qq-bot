@@ -17,11 +17,11 @@ auth:
     # 官方域名，必填
     base-url: https://as.hypergryph.com
     # 手机号+密码登录接口路径
-    token-by-phone-password: /user/auth/v1/token_by_phone_password
+    token_by_phone_password: /user/auth/v1/token_by_phone_password
     # 发送手机验证码接口路径
-    send-phone-code: /general/v1/send_phone_code
+    send_phone_code: /general/v1/send_phone_code
     # 短信验证码登录接口路径
-    token-by-phone-code: /user/auth/v2/token_by_phone_code
+    token_by_phone_code: /user/auth/v2/token_by_phone_code
     # 登录 token 换 oauth_code 接口路径
     grant: /user/oauth2/v2/grant
     # 官方固定 appCode
@@ -30,15 +30,17 @@ auth:
     user-agent: Skland/1.35.0 (com.hypergryph.skland; build:103500035; Android 32; ) Okhttp/4.11.0
     # 全局接口访问的 API Key，X-API-KEY 头，留空则关闭校验
     api-key:
+    # 短信验证码冷却时间（秒）
+    phone-code-cooldown-seconds: 70
     # HTTP 调用超时时间（秒）
     timeout-seconds: 10
   skland:
     # 森空岛域名，必填
     base-url: https://zonai.skland.com
     # oauth_code 换 cred/token 接口路径
-    cred-by-code: /api/v1/user/auth/generate_cred_by_code
+    cred_by_code: /api/v1/user/auth/generate_cred_by_code
     # 校验 cred 接口路径
-    check-cred: /api/v1/user/check
+    check_cred: /api/v1/user/check
     # 签名字段 vName
     v-name: 1.35.0
     # 签名字段 platform

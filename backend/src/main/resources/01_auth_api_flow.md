@@ -2,23 +2,23 @@
 
 本文档描述当前后端暴露的鉴权接口，以及如何按官方链路逐步拿到 cred/token。所有配置均可在 `application.yml` 的 `auth.*` 下调整。
 
-## 时序概览（短信登录链路）
+## 时序概览（短信登录链路，默认冷却 70s）
 
 ```
-手机号 -> /api/auth/phone-code           -> 发送短信验证码
+手机号 -> /api/auth/send_phone_code      -> 发送短信验证码（type 固定 2）
      (用户输入验证码)
-         -> /api/auth/token-by-code       -> 得到登录 token
+         -> /api/auth/token_by_phone_code -> 得到登录 token
          -> /api/auth/grant               -> 换取 oauth_code + uid
-         -> /api/auth/cred                -> 换取 cred + skland token
-         -> /api/auth/cred/check          -> 带签名校验 cred 有效性
+         -> /api/auth/generate_cred_by_code -> 换取 cred + skland token
+         -> /api/auth/user/check          -> 带签名校验 cred 有效性
 ```
 
 ## 接口摘要
-- `POST /api/auth/phone-code`：body `{phone,type}`，默认 `type=2`。
-- `POST /api/auth/token-by-code`：body `{phone,code}`，返回登录 token。
+- `POST /api/auth/send_phone_code`：body `{phone,type}`，默认 `type=2`，内置冷却 70s（可通过配置调整）。
+- `POST /api/auth/token_by_phone_code`：body `{phone,code}`，返回登录 token。
 - `POST /api/auth/grant`：body `{token}`，返回 `code`（oauth_code）与 `uid`。
-- `POST /api/auth/cred`：body `{code,kind=1}`，返回 `cred` 与用于签名的 `token`。
-- `POST /api/auth/cred/check`：body `{cred,token}`，内部自动生成签名头后请求官方 `/user/check`。
+- `POST /api/auth/generate_cred_by_code`：body `{code,kind=1}`，返回 `cred` 与用于签名的 `token`。
+- `POST /api/auth/user/check`：body `{cred,token}`，内部自动生成签名头后请求官方 `/user/check`。
 
 ## 签名规则（适用于所有需要 `Cred` 的功能接口）
 - header 基础字段按顺序：`platform`,`timestamp`,`dId`,`vName`，值来源 `auth.skland.*` 配置。

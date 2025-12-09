@@ -19,7 +19,7 @@ public class Knife4jGlobalHeaderConfig {
     @Bean
     public OpenApiCustomizer globalApiKeyHeader(AuthProperties authProperties) {
         return openApi -> {
-            String defaultKey = authProperties.getHypergryph().getApiKey();
+            String defaultKey = authProperties.getHypergryph().getApi_key();
             Parameter apiKeyHeader = new Parameter()
                     .name(HEADER_NAME)
                     .in("header")

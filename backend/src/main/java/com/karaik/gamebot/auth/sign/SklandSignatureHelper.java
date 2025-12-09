@@ -39,8 +39,8 @@ public class SklandSignatureHelper {
         Map<String, String> headers = new LinkedHashMap<>();
         headers.put("platform", properties.getSkland().getPlatform());
         headers.put("timestamp", String.valueOf(timestamp));
-        headers.put("dId", properties.getSkland().getDId());
-        headers.put("vName", properties.getSkland().getVName());
+        headers.put("dId", properties.getSkland().getD_id());
+        headers.put("vName", properties.getSkland().getV_name());
 
         String headersJson = toJson(headers);
         String toSign = pathWithQuery + bodyJson + timestamp + headersJson;

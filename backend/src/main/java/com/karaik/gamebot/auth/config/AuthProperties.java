@@ -32,22 +32,22 @@ public class AuthProperties {
          * 基础域名，需在配置文件指定。
          */
         @NotBlank
-        private String baseUrl;
+        private String base_url;
         /**
          * 手机号+密码登录接口路径。
          */
         @NotBlank
-        private String tokenByPhonePassword;
+        private String token_by_phone_password;
         /**
          * 发送手机验证码接口路径。
          */
         @NotBlank
-        private String sendPhoneCode;
+        private String send_phone_code;
         /**
          * 通过验证码换取 token 的接口路径。
          */
         @NotBlank
-        private String tokenByPhoneCode;
+        private String token_by_phone_code;
         /**
          * grant oauth_code 接口路径。
          */
@@ -57,21 +57,26 @@ public class AuthProperties {
          * 应用 appCode，官方固定值。
          */
         @NotBlank
-        private String appCode;
+        private String app_code;
         /**
          * 默认 User-Agent，可按需覆盖。
          */
         @NotBlank
-        private String userAgent;
+        private String user_agent;
         /**
          * 内部接口鉴权的默认 API Key（全局 Header 校验），不填则关闭。
          */
-        private String apiKey = "";
+        private String api_key = "";
+        /**
+         * 发送短信验证码的冷却时间（秒）。
+         */
+        @Positive
+        private int phone_code_cooldown_seconds;
         /**
          * HTTP 请求超时时间（秒）。
          */
         @Positive
-        private int timeoutSeconds;
+        private int timeout_seconds;
     }
 
     @Data
@@ -80,22 +85,22 @@ public class AuthProperties {
          * 基础域名，需在配置文件指定。
          */
         @NotBlank
-        private String baseUrl;
+        private String base_url;
         /**
          * 根据 oauth_code 生成 cred/token 的接口路径。
          */
         @NotBlank
-        private String credByCode;
+        private String cred_by_code;
         /**
          * 校验 cred 是否有效的接口路径。
          */
         @NotBlank
-        private String checkCred;
+        private String check_cred;
         /**
          * 签名用版本号 vName。
          */
         @NotBlank
-        private String vName;
+        private String v_name;
         /**
          * 签名用平台标识。
          */
@@ -104,6 +109,6 @@ public class AuthProperties {
         /**
          * 设备 ID，可留空。
          */
-        private String dId = "";
+        private String d_id = "";
     }
 }

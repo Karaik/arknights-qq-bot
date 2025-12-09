@@ -35,10 +35,10 @@ public class AuthHttpClient {
     /**
      * 普通 JSON POST 调用（用于 send_phone_code、token_by_phone_code、grant）。
      */
-    public <T> T postJson(String baseUrl, String path, Object body, Class<T> type, Duration timeout) {
-        String url = baseUrl + path;
+    public <T> T postJson(String base_url, String path, Object body, Class<T> type, Duration timeout) {
+        String url = base_url + path;
         try {
-            return webClient(properties.getHypergryph().getUserAgent())
+            return webClient(properties.getHypergryph().getUser_agent())
                     .post()
                     .uri(url)
                     .contentType(MediaType.APPLICATION_JSON)
@@ -56,15 +56,15 @@ public class AuthHttpClient {
     /**
      * 带签名的 GET/POST 调用（用于 cred 校验等需要 Cred 头的接口）。
      */
-    public <T> T signedGet(String baseUrl, String pathWithQuery, String token, String cred, Class<T> type, Duration timeout) {
+    public <T> T signedGet(String base_url, String pathWithQuery, String token, String cred, Class<T> type, Duration timeout) {
         long ts = Instant.now().getEpochSecond();
-        URI uri = URI.create(baseUrl + pathWithQuery);
+        URI uri = URI.create(base_url + pathWithQuery);
         String path = uri.getPath();
         String query = uri.getQuery() == null ? "" : uri.getQuery();
         String combined = path + query;
         var headers = signatureHelper.generate(combined, "", ts, token, cred);
         try {
-            return webClient(properties.getHypergryph().getUserAgent())
+            return webClient(properties.getHypergryph().getUser_agent())
                     .get()
                     .uri(uri)
                     .headers(h -> {
@@ -83,6 +83,6 @@ public class AuthHttpClient {
     }
 
     public Duration timeout() {
-        return Duration.ofSeconds(properties.getHypergryph().getTimeoutSeconds());
+        return Duration.ofSeconds(properties.getHypergryph().getTimeout_seconds());
     }
 }

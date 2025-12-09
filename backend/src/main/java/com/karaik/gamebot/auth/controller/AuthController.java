@@ -45,7 +45,7 @@ public class AuthController {
      * 发送手机验证码（官方 send_phone_code）。
      */
     @Operation(summary = "发送手机验证码")
-    @PostMapping("/phone-code")
+    @PostMapping("/send_phone_code")
     public ApiResponse<SendPhoneCodeResponse> sendPhoneCode(@RequestBody @Validated SendPhoneCodeRequest request) {
         log.info("event=send_phone_code phone={}", maskPhone(request.getPhone()));
         return wrap(() -> authService.sendPhoneCode(request));
@@ -55,7 +55,7 @@ public class AuthController {
      * 使用验证码换取登录 token（官方 token_by_phone_code）。
      */
     @Operation(summary = "验证码换取登录token")
-    @PostMapping("/token-by-code")
+    @PostMapping("/token_by_phone_code")
     public ApiResponse<TokenByPhoneCodeResponse> tokenByPhoneCode(@RequestBody @Validated TokenByPhoneCodeRequest request) {
         log.info("event=token_by_phone_code phone={}", maskPhone(request.getPhone()));
         return wrap(() -> authService.tokenByPhoneCode(request));
@@ -65,7 +65,7 @@ public class AuthController {
      * 手机号+密码直接获取登录 token。
      */
     @Operation(summary = "手机号+密码登录")
-    @PostMapping("/token-by-password")
+    @PostMapping("/token_by_phone_password")
     public ApiResponse<TokenByPhonePasswordResponse> tokenByPhonePassword(@RequestBody @Validated TokenByPhonePasswordRequest request) {
         log.info("event=token_by_phone_password phone={}", maskPhone(request.getPhone()));
         return wrap(() -> authService.tokenByPhonePassword(request));
@@ -85,7 +85,7 @@ public class AuthController {
      * 使用 oauth_code 生成 cred/token（官方 generate_cred_by_code）。
      */
     @Operation(summary = "oauth_code换取cred/token")
-    @PostMapping("/cred")
+    @PostMapping("/generate_cred_by_code")
     public ApiResponse<CredByCodeResponse> generateCred(@RequestBody @Validated CredByCodeRequest request) {
         log.info("event=generate_cred_by_code");
         return wrap(() -> authService.generateCredByCode(request));
@@ -95,7 +95,7 @@ public class AuthController {
      * 校验 cred 是否有效（官方 /user/check，需带签名）。
      */
     @Operation(summary = "校验cred有效性")
-    @PostMapping("/cred/check")
+    @PostMapping("/user/check")
     public ApiResponse<CheckCredResponse> checkCred(@RequestBody @Validated CheckCredRequest request) {
         log.info("event=check_cred");
         return wrap(() -> authService.checkCred(request));

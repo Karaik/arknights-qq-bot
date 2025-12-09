@@ -12,7 +12,7 @@ public class SendPhoneCodeRequest {
      */
     private String phone;
     /**
-     * 验证码类型，官方短信登录为 2。
+     * 短信类型，只允许 2（短信登录），其他值将被拒绝。
      */
-    private int type = 2;
+    private Integer type = 2;
 }

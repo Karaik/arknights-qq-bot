@@ -23,7 +23,7 @@ public class ApiKeyInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        String required = authProperties.getHypergryph().getApiKey();
+        String required = authProperties.getHypergryph().getApi_key();
         String provided = request.getHeader(HEADER_KEY);
         if (required == null || required.isEmpty()) {
             return true;
