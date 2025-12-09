@@ -1,7 +1,7 @@
 package com.karaik.gamebot.common.api;
 
 /**
- * 统一响应包装，便于前后端/Koishi 使用一致的返回格式。
+ * 统一响应包装，便于前后端使用一致的返回格式。
  *
  * @param code    业务状态码，0 表示成功
  * @param message 描述信息

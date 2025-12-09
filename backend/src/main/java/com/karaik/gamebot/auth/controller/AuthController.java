@@ -4,12 +4,14 @@ import com.karaik.gamebot.auth.dto.request.CheckCredRequest;
 import com.karaik.gamebot.auth.dto.request.CredByCodeRequest;
 import com.karaik.gamebot.auth.dto.request.GrantRequest;
 import com.karaik.gamebot.auth.dto.request.SendPhoneCodeRequest;
+import com.karaik.gamebot.auth.dto.request.TokenByPhonePasswordRequest;
 import com.karaik.gamebot.auth.dto.request.TokenByPhoneCodeRequest;
 import com.karaik.gamebot.auth.dto.response.CheckCredResponse;
 import com.karaik.gamebot.auth.dto.response.CredByCodeResponse;
 import com.karaik.gamebot.auth.dto.response.GrantResponse;
 import com.karaik.gamebot.auth.dto.response.SendPhoneCodeResponse;
 import com.karaik.gamebot.auth.dto.response.TokenByPhoneCodeResponse;
+import com.karaik.gamebot.auth.dto.response.TokenByPhonePasswordResponse;
 import com.karaik.gamebot.auth.service.AuthService;
 import com.karaik.gamebot.common.api.ApiResponse;
 import io.swagger.v3.oas.annotations.Operation;
@@ -26,7 +28,7 @@ import org.springframework.web.reactive.function.client.WebClientResponseExcepti
 import java.util.function.Supplier;
 
 /**
- * 封装鹰角账号 / 森空岛鉴权链路的开放接口，供 Koishi 等上层直接调用。
+ * 封装鹰角账号 / 森空岛鉴权链路的开放接口，供上层直接调用。
  * 每个接口均对应官方文档中的一步操作，便于排查问题和复用。
  */
 @Slf4j
@@ -57,6 +59,16 @@ public class AuthController {
     public ApiResponse<TokenByPhoneCodeResponse> tokenByPhoneCode(@RequestBody @Validated TokenByPhoneCodeRequest request) {
         log.info("event=token_by_phone_code phone={}", maskPhone(request.getPhone()));
         return wrap(() -> authService.tokenByPhoneCode(request));
+    }
+
+    /**
+     * 手机号+密码直接获取登录 token。
+     */
+    @Operation(summary = "手机号+密码登录")
+    @PostMapping("/token-by-password")
+    public ApiResponse<TokenByPhonePasswordResponse> tokenByPhonePassword(@RequestBody @Validated TokenByPhonePasswordRequest request) {
+        log.info("event=token_by_phone_password phone={}", maskPhone(request.getPhone()));
+        return wrap(() -> authService.tokenByPhonePassword(request));
     }
 
     /**

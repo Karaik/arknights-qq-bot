@@ -1,8 +1,8 @@
 # 鉴权调用流程（Koishi/后端对接）
 
-本文档描述当前后端暴露的 5 个鉴权接口，以及如何按官方链路逐步拿到 cred/token。所有配置均可在 `application.yml` 的 `auth.*` 下调整。
+本文档描述当前后端暴露的鉴权接口，以及如何按官方链路逐步拿到 cred/token。所有配置均可在 `application.yml` 的 `auth.*` 下调整。
 
-## 时序概览
+## 时序概览（短信登录链路）
 
 ```
 手机号 -> /api/auth/phone-code           -> 发送短信验证码

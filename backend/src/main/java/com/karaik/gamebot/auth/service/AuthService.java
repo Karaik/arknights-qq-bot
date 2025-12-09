@@ -6,12 +6,14 @@ import com.karaik.gamebot.auth.dto.request.CheckCredRequest;
 import com.karaik.gamebot.auth.dto.request.CredByCodeRequest;
 import com.karaik.gamebot.auth.dto.request.GrantRequest;
 import com.karaik.gamebot.auth.dto.request.SendPhoneCodeRequest;
+import com.karaik.gamebot.auth.dto.request.TokenByPhonePasswordRequest;
 import com.karaik.gamebot.auth.dto.request.TokenByPhoneCodeRequest;
 import com.karaik.gamebot.auth.dto.response.CheckCredResponse;
 import com.karaik.gamebot.auth.dto.response.CredByCodeResponse;
 import com.karaik.gamebot.auth.dto.response.GrantResponse;
 import com.karaik.gamebot.auth.dto.response.SendPhoneCodeResponse;
 import com.karaik.gamebot.auth.dto.response.TokenByPhoneCodeResponse;
+import com.karaik.gamebot.auth.dto.response.TokenByPhonePasswordResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -21,7 +23,7 @@ import java.time.Duration;
 import java.util.Map;
 
 /**
- * 封装鹰角/森空岛认证链路，提供分步接口供 Koishi 调用。
+ * 封装鹰角/森空岛认证链路，提供分步接口供外部调用。
  */
 @Slf4j
 @Service
@@ -33,6 +35,20 @@ public class AuthService {
 
     private Duration timeout() {
         return httpClient.timeout();
+    }
+
+    /**
+     * 通过手机号+密码换取登录 token。
+     * <p>业务说明：官方 token_by_phone_password，适合已有密码的账号直接登录。</p>
+     */
+    public TokenByPhonePasswordResponse tokenByPhonePassword(TokenByPhonePasswordRequest request) {
+        validatePhone(request.getPhone());
+        if (!StringUtils.hasText(request.getPassword())) {
+            throw new IllegalArgumentException("密码不能为空");
+        }
+        String path = properties.getHypergryph().getTokenByPhonePassword();
+        var body = Map.of("phone", request.getPhone(), "password", request.getPassword());
+        return httpClient.postJson(properties.getHypergryph().getBaseUrl(), path, body, TokenByPhonePasswordResponse.class, timeout());
     }
 
     /**

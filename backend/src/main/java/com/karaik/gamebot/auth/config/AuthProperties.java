@@ -1,5 +1,7 @@
 package com.karaik.gamebot.auth.config;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -27,57 +29,78 @@ public class AuthProperties {
     @Data
     public static class Hypergryph {
         /**
-         * 基础域名，默认 https://as.hypergryph.com
+         * 基础域名，需在配置文件指定。
          */
-        private String baseUrl = "https://as.hypergryph.com";
+        @NotBlank
+        private String baseUrl;
+        /**
+         * 手机号+密码登录接口路径。
+         */
+        @NotBlank
+        private String tokenByPhonePassword;
         /**
          * 发送手机验证码接口路径。
          */
-        private String sendPhoneCode = "/general/v1/send_phone_code";
+        @NotBlank
+        private String sendPhoneCode;
         /**
          * 通过验证码换取 token 的接口路径。
          */
-        private String tokenByPhoneCode = "/user/auth/v2/token_by_phone_code";
+        @NotBlank
+        private String tokenByPhoneCode;
         /**
          * grant oauth_code 接口路径。
          */
-        private String grant = "/user/oauth2/v2/grant";
+        @NotBlank
+        private String grant;
         /**
          * 应用 appCode，官方固定值。
          */
-        private String appCode = "4ca99fa6b56cc2ba";
+        @NotBlank
+        private String appCode;
         /**
          * 默认 User-Agent，可按需覆盖。
          */
-        private String userAgent = "Skland/1.35.0 (com.hypergryph.skland; build:103500035; Android 32; ) Okhttp/4.11.0";
+        @NotBlank
+        private String userAgent;
+        /**
+         * 内部接口鉴权的默认 API Key（全局 Header 校验），不填则关闭。
+         */
+        private String apiKey = "";
         /**
          * HTTP 请求超时时间（秒）。
          */
-        private int timeoutSeconds = 10;
+        @Positive
+        private int timeoutSeconds;
     }
 
     @Data
     public static class Skland {
         /**
-         * 基础域名，默认 https://zonai.skland.com
+         * 基础域名，需在配置文件指定。
          */
-        private String baseUrl = "https://zonai.skland.com";
+        @NotBlank
+        private String baseUrl;
         /**
          * 根据 oauth_code 生成 cred/token 的接口路径。
          */
-        private String credByCode = "/api/v1/user/auth/generate_cred_by_code";
+        @NotBlank
+        private String credByCode;
         /**
          * 校验 cred 是否有效的接口路径。
          */
-        private String checkCred = "/api/v1/user/check";
+        @NotBlank
+        private String checkCred;
         /**
          * 签名用版本号 vName。
          */
-        private String vName = "1.35.0";
+        @NotBlank
+        private String vName;
         /**
          * 签名用平台标识。
          */
-        private String platform = "1";
+        @NotBlank
+        private String platform;
         /**
          * 设备 ID，可留空。
          */
