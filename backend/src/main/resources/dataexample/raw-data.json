@@ -1,0 +1,5220 @@
+{
+  "currentTs" : "1763516425",
+  "topics" : [
+    {
+    "id" : "rogue_5",
+    "isSelected" : true,
+    "pic" : "https://bbs.hycdn.cn/public/skland-game/image/arknights/dm01-rouge/11cdbc2ed952db034382e42ee73904d2.png",
+    "dynamic" : {
+      "type" : 4,
+      "url" : "https://bbs.hycdn.cn/vod-ea9f6c/90e29fff615871f0940f5017f0e90102/696d3a88fc739d27e6509fd25a4879df-hd.m3u8",
+      "videoId" : "",
+      "kind" : 2,
+      "filename" : "",
+      "transcodeStatus" : 0
+    },
+    "name" : "岁的界园志异",
+    "titlePic" : "https://bbs.hycdn.cn/image/2025/07/15/509a767b2e0ea959cd2adfc9fe3d3878.png",
+    "allOpenTs" : "1753153200"
+  }, {
+    "id" : "rogue_4",
+    "isSelected" : false,
+    "pic" : "https://bbs.hycdn.cn/public/skland-game/image/arknights/dm01-rouge/42dfbae947cb1e99905268d3feeda129.png",
+    "dynamic" : {
+      "type" : 4,
+      "url" : "https://bbs.hycdn.cn/vod-ea9f6c/d0d24685f34c71ef8f574531948c0102/06c4ee355e869820d1d8076975c599ea-hd.m3u8",
+      "videoId" : "",
+      "kind" : 2,
+      "filename" : "",
+      "transcodeStatus" : 0
+    },
+    "name" : "萨卡兹的无终奇语",
+    "titlePic" : "https://bbs.hycdn.cn/image/2025/02/25/34909f793d5cfe85f0116f8d7920fdb4.png",
+    "allOpenTs" : "0"
+  }, {
+    "id" : "rogue_3",
+    "isSelected" : false,
+    "pic" : "https://bbs.hycdn.cn/public/skland-game/image/arknights/dm01-rouge/a8abaaef47c1f73fc532ad2c295a3c79.png",
+    "dynamic" : {
+      "type" : 4,
+      "url" : "https://bbs.hycdn.cn/vod-ea9f6c/20d42cc1e5fa71ef959e6723b78e0102/eda55bc29b776d9c53de27bdf1ce63b1-hd.m3u8",
+      "videoId" : "",
+      "kind" : 2,
+      "filename" : "",
+      "transcodeStatus" : 0
+    },
+    "name" : "探索者的银凇止境",
+    "titlePic" : "https://bbs.hycdn.cn/image/2025/02/08/6667c76386ac19140c5eb12dc4c3246e.png",
+    "allOpenTs" : "0"
+  }, {
+    "id" : "rogue_2",
+    "isSelected" : false,
+    "pic" : "https://bbs.hycdn.cn/public/skland-game/image/arknights/dm01-rouge/bf93ec73b9990549cb4815d17e212ff3.png",
+    "dynamic" : {
+      "type" : 4,
+      "url" : "https://bbs.hycdn.cn/vod-ea9f6c/b0ee8bbf15b871f080b74531859c0102/188d9d9b1007629a1ac6db865bf9f795-hd.m3u8",
+      "videoId" : "",
+      "kind" : 2,
+      "filename" : "",
+      "transcodeStatus" : 0
+    },
+    "name" : "水月与深蓝之树",
+    "titlePic" : "https://bbs.hycdn.cn/image/2025/04/10/b6cbe8af57c8824db96d67238929134a.png",
+    "allOpenTs" : "0"
+  }, {
+    "id" : "rogue_1",
+    "isSelected" : false,
+    "pic" : "https://bbs.hycdn.cn/public/skland-game/image/arknights/dm01-rouge/f02b008ed6e0828bb943916cffd8d26d.png",
+    "dynamic" : {
+      "type" : 4,
+      "url" : "https://bbs.hycdn.cn/vod-ea9f6c/e0be22a115b871f0804e5017f0e90102/74a645e0ef0b2a5bc6b943e5ddd2d06f-hd.m3u8",
+      "videoId" : "",
+      "kind" : 2,
+      "filename" : "",
+      "transcodeStatus" : 0
+    },
+    "name" : "傀影与猩红孤钻",
+    "titlePic" : "https://bbs.hycdn.cn/image/2025/04/10/7dd0ee231b4bca826660b8df1ef8ce79.png",
+    "allOpenTs" : "0"
+  } ],
+  "showConfig" : {
+    "charSwitch" : true,
+    "skinSwitch" : true,
+    "standingsSwitch" : true
+  },
+  "history" : {
+    "medal" : {
+      "count" : 12,
+      "current" : 12
+    },
+    "modeGrade" : 15,
+    "mode" : "请君入园",
+    "score" : 2512,
+    "bpLevel" : 110,
+    "chars" : [ {
+      "id" : "char_4195_radian",
+      "rarity" : 5,
+      "profession" : "SUPPORT",
+      "type" : "NORMAL",
+      "upgradePhase" : 0,
+      "evolvePhase" : 1,
+      "level" : 80,
+      "name" : "电弧",
+      "isCandle" : false
+    }, {
+      "id" : "char_1035_wisdel",
+      "rarity" : 5,
+      "profession" : "SNIPER",
+      "type" : "NORMAL",
+      "upgradePhase" : 0,
+      "evolvePhase" : 1,
+      "level" : 80,
+      "name" : "维什戴尔",
+      "isCandle" : false
+    }, {
+      "id" : "char_445_wscoot",
+      "rarity" : 3,
+      "profession" : "WARRIOR",
+      "type" : "NORMAL",
+      "upgradePhase" : 0,
+      "evolvePhase" : 1,
+      "level" : 60,
+      "name" : "骋风",
+      "isCandle" : false
+    } ],
+    "tagList" : [ ],
+    "records" : [ {
+      "id" : "1bd9ee86-bb2d-47d3-9c51-26befd8be00e",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 1,
+      "lastChars" : [ {
+        "id" : "char_1043_leizi2",
+        "rarity" : 5,
+        "profession" : "WARRIOR",
+        "type" : "FREE",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "司霆惊蛰",
+        "isCandle" : true
+      }, {
+        "id" : "char_1041_angel2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "UPGRADE_BONUS",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "新约能天使",
+        "isCandle" : true
+      }, {
+        "id" : "char_1045_svash2",
+        "rarity" : 5,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "凛御银灰",
+        "isCandle" : true
+      }, {
+        "id" : "char_4145_ulpia",
+        "rarity" : 5,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "乌尔比安",
+        "isCandle" : true
+      }, {
+        "id" : "char_377_gdglow",
+        "rarity" : 5,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "澄闪",
+        "isCandle" : true
+      }, {
+        "id" : "char_1029_yato2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "麒麟R夜刀",
+        "isCandle" : true
+      }, {
+        "id" : "char_1044_hsgma2",
+        "rarity" : 5,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 60,
+        "name" : "斩业星熊",
+        "isCandle" : true
+      }, {
+        "id" : "char_206_gnosis",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 60,
+        "name" : "灵知",
+        "isCandle" : true
+      }, {
+        "id" : "char_4163_rosesa",
+        "rarity" : 4,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 80,
+        "name" : "瑰盐",
+        "isCandle" : true
+      }, {
+        "id" : "char_151_myrtle",
+        "rarity" : 3,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "桃金娘",
+        "isCandle" : true
+      }, {
+        "id" : "char_150_snakek",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "蛇屠箱",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : true
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : true
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "清流",
+        "isCandle" : true
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "骋风",
+        "isCandle" : true
+      }, {
+        "id" : "char_1041_angel2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "UPGRADE_BONUS",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "新约能天使",
+        "isCandle" : true
+      }, {
+        "id" : "char_4163_rosesa",
+        "rarity" : 4,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 80,
+        "name" : "瑰盐",
+        "isCandle" : true
+      }, {
+        "id" : "char_1044_hsgma2",
+        "rarity" : 5,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 60,
+        "name" : "斩业星熊",
+        "isCandle" : true
+      }, {
+        "id" : "char_298_susuro",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 50,
+        "name" : "苏苏洛",
+        "isCandle" : true
+      }, {
+        "id" : "char_1045_svash2",
+        "rarity" : 5,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "凛御银灰",
+        "isCandle" : true
+      }, {
+        "id" : "char_133_mm",
+        "rarity" : 3,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 1,
+        "name" : "梅",
+        "isCandle" : true
+      }, {
+        "id" : "char_1043_leizi2",
+        "rarity" : 5,
+        "profession" : "WARRIOR",
+        "type" : "FREE",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "司霆惊蛰",
+        "isCandle" : true
+      }, {
+        "id" : "char_1046_sbell2",
+        "rarity" : 5,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 60,
+        "name" : "圣聆初雪",
+        "isCandle" : true
+      }, {
+        "id" : "char_1029_yato2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "麒麟R夜刀",
+        "isCandle" : true
+      }, {
+        "id" : "char_206_gnosis",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 60,
+        "name" : "灵知",
+        "isCandle" : true
+      }, {
+        "id" : "char_484_robrta",
+        "rarity" : 3,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 1,
+        "name" : "罗比菈塔",
+        "isCandle" : false
+      }, {
+        "id" : "char_110_deepcl",
+        "rarity" : 3,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "深海色",
+        "isCandle" : false
+      }, {
+        "id" : "char_151_myrtle",
+        "rarity" : 3,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "桃金娘",
+        "isCandle" : true
+      }, {
+        "id" : "char_4145_ulpia",
+        "rarity" : 5,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "乌尔比安",
+        "isCandle" : true
+      }, {
+        "id" : "char_002_amiya",
+        "rarity" : 4,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 80,
+        "name" : "阿米娅",
+        "isCandle" : true
+      }, {
+        "id" : "char_377_gdglow",
+        "rarity" : 5,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "澄闪",
+        "isCandle" : true
+      }, {
+        "id" : "char_4067_lolxh",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 1,
+        "name" : "罗小黑",
+        "isCandle" : false
+      }, {
+        "id" : "char_4041_chnut",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "褐果",
+        "isCandle" : false
+      }, {
+        "id" : "char_150_snakek",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "蛇屠箱",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "卡达",
+        "isCandle" : false
+      }, {
+        "id" : "char_141_nights",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "夜烟",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_109_fmout",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "远山",
+        "isCandle" : false
+      }, {
+        "id" : "char_355_ethan",
+        "rarity" : 3,
+        "profession" : "SPECIAL",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 70,
+        "name" : "伊桑",
+        "isCandle" : false
+      }, {
+        "id" : "char_201_moeshd",
+        "rarity" : 4,
+        "profession" : "TANK",
+        "type" : "FREE",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 70,
+        "name" : "可颂",
+        "isCandle" : false
+      }, {
+        "id" : "char_144_red",
+        "rarity" : 4,
+        "profession" : "SPECIAL",
+        "type" : "FREE",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 70,
+        "name" : "红",
+        "isCandle" : false
+      }, {
+        "id" : "char_4051_akkord",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 1,
+        "name" : "协律",
+        "isCandle" : false
+      }, {
+        "id" : "char_4052_surfer",
+        "rarity" : 4,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 70,
+        "name" : "寻澜",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_explore_2", "rogue_5_relic_explore_1", "rogue_5_relic_explore_8", "rogue_5_relic_legacy_13", "rogue_5_relic_explore_11", "rogue_5_relic_fight_10", "rogue_5_relic_legacy_44", "rogue_5_relic_legacy_43", "rogue_5_relic_legacy_71", "rogue_5_relic_richg_5", "rogue_5_relic_fight_3", "rogue_5_relic_legacy_94", "rogue_5_relic_legacy_69", "rogue_5_relic_explore_9", "rogue_5_relic_speg_1", "rogue_5_relic_cardg_3", "rogue_5_relic_legacy_18", "rogue_5_relic_final_5", "rogue_5_relic_legacy_57", "rogue_5_relic_legacy_42", "rogue_5_relic_return_12", "rogue_5_relic_fight_5", "rogue_5_relic_legacy_84", "rogue_5_relic_legacy_108", "rogue_5_relic_final_6", "rogue_5_relic_fight_15", "rogue_5_relic_explore_13", "rogue_5_relic_final_3", "rogue_5_relic_final_4", "rogue_5_relic_fight_9", "rogue_5_relic_fight_2", "rogue_5_relic_legacy_81", "rogue_5_relic_fight_6", "rogue_5_relic_fight_12", "rogue_5_relic_legacy_136", "rogue_5_relic_bullet_1", "rogue_5_relic_legacy_104", "rogue_5_relic_legacy_89", "rogue_5_relic_legacy_11", "rogue_5_relic_bullet_4", "rogue_5_relic_legacy_47", "rogue_5_relic_legacy_144", "rogue_5_relic_legacy_131_c", "rogue_5_relic_legacy_145", "rogue_5_relic_legacy_41", "rogue_5_relic_legacy_90", "rogue_5_relic_legacy_98", "rogue_5_relic_legacy_33_c", "rogue_5_relic_speg_6", "rogue_5_relic_legacy_38", "rogue_5_relic_legacy_74", "rogue_5_relic_legacy_46", "rogue_5_relic_richg_3", "rogue_5_relic_legacy_20", "rogue_5_relic_legacy_70", "rogue_5_relic_legacy_67", "rogue_5_relic_legacy_10", "rogue_5_relic_legacy_111", "rogue_5_relic_blockg_3", "rogue_5_relic_return_3", "rogue_5_relic_raidian_1", "rogue_5_relic_legacy_35_c", "rogue_5_relic_fight_4", "rogue_5_relic_legacy_45", "rogue_5_relic_legacy_65", "rogue_5_relic_explore_3", "rogue_5_relic_farmer_1", "rogue_5_relic_return_4", "rogue_5_relic_fight_7", "rogue_5_relic_speg_5", "rogue_5_relic_farmer_5", "rogue_5_relic_return_17", "rogue_5_relic_return_13" ],
+      "cntCrossedZone" : 7,
+      "cntArrivedNode" : 90,
+      "cntBattleNormal" : 22,
+      "cntBattleElite" : 2,
+      "cntBattleBoss" : 3,
+      "cntGainRelicItem" : 73,
+      "cntRecruitUpgrade" : 45,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_R_13_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_01_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_24_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_10_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_U_7_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_14_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_22_d",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 5,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_15_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_18_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_16_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_S_2_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_S_7_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_21_d",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_12_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_32_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_U_5_b",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_10_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_31_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_S_3_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_14_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ {
+        "name" : "收藏大师",
+        "icon" : "https://bbs.hycdn.cn/asset/rogue/85ccfe34afba7bd34436216afcda09a4.png",
+        "description" : "在单局集成战略中，获得的总收藏品数量 ≥60",
+        "id" : 3,
+        "level" : 1
+      }, {
+        "name" : "投宝问路",
+        "icon" : "https://bbs.hycdn.cn/asset/rogue/c1f293dd947a6a361d45cfd5dba98775.png",
+        "description" : "在单局集成战略中，投掷出的通宝数量 ≥21",
+        "id" : 19,
+        "level" : 1
+      }, {
+        "name" : "鸭飞鼠跳",
+        "icon" : "https://bbs.hycdn.cn/asset/rogue/d1df25c58da001b40903fef857167bda.png",
+        "description" : "在单局集成战略中，击败特定敌方单位（鸭爵、高普尼克、流泪小子、圆仔）的数量 ≥2",
+        "id" : 7,
+        "level" : 1
+      } ],
+      "lastStage" : "末狩",
+      "score" : 2317,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762945337",
+      "endTs" : "1763210505",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 73时39分28秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/15 20:41:45 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"见证了\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 无中生有 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"在岁识中见着往日大狩猎一角，无字长卷上留下了浅浅一道墨。由此，便能化字，著书，立学，成人。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "a5f74902-9384-4429-9ce5-cdf690031a3a",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_explore_8", "rogue_5_relic_cardg_5", "rogue_5_relic_legacy_126", "rogue_5_relic_legacy_77", "rogue_5_relic_legacy_103", "rogue_5_relic_legacy_64" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 6,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 6,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_12_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 204,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762909710",
+      "endTs" : "1762945333",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 09时53分43秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/12 19:02:13 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "58cd2a82-22cb-45be-9d0a-8441eca9b33e",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_12", "rogue_5_relic_legacy_68", "rogue_5_relic_fight_12", "rogue_5_relic_legacy_151", "rogue_5_relic_legacy_55", "rogue_5_relic_legacy_52", "rogue_5_relic_legacy_103", "rogue_5_relic_legacy_127", "rogue_5_relic_explore_8", "rogue_5_relic_legacy_61", "rogue_5_relic_bullet_1" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 12,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 11,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_24_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_30_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 250,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762909159",
+      "endTs" : "1762909677",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时08分38秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/12 09:07:57 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "08615df2-14be-401f-906a-1658f4808bad",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_300_phenxi",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "FREE",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "菲亚梅塔",
+        "isCandle" : false
+      }, {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_300_phenxi",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "FREE",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "菲亚梅塔",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_300_phenxi",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "FREE",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "菲亚梅塔",
+        "isCandle" : false
+      }, {
+        "id" : "char_298_susuro",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "苏苏洛",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_49", "rogue_5_relic_legacy_16", "rogue_5_relic_legacy_59", "rogue_5_relic_fight_13" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 7,
+      "cntBattleNormal" : 1,
+      "cntBattleElite" : 2,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 4,
+      "cntRecruitUpgrade" : 1,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_28_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "源源不断",
+      "score" : 238,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762860833",
+      "endTs" : "1762909155",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 13时25分22秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/12 08:59:15 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "5827ab71-b1e6-4bb7-9eb9-eb2bb08eced3",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_1045_svash2",
+        "rarity" : 5,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "凛御银灰",
+        "isCandle" : true
+      }, {
+        "id" : "char_206_gnosis",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "灵知",
+        "isCandle" : true
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_1045_svash2",
+        "rarity" : 5,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "凛御银灰",
+        "isCandle" : true
+      }, {
+        "id" : "char_206_gnosis",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "灵知",
+        "isCandle" : true
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_144", "rogue_5_relic_legacy_55", "rogue_5_relic_explore_7", "rogue_5_relic_legacy_117", "rogue_5_relic_fight_5", "rogue_5_relic_speg_5", "rogue_5_relic_legacy_89", "rogue_5_relic_legacy_20", "rogue_5_relic_legacy_148", "rogue_5_relic_final_5", "rogue_5_relic_return_22", "rogue_5_relic_fight_17", "rogue_5_relic_richg_2", "rogue_5_relic_legacy_64" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 17,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 2,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 14,
+      "cntRecruitUpgrade" : 4,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_15_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_26_b",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 3,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_03_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "震坎",
+      "score" : 352,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762838612",
+      "endTs" : "1762860830",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 06时10分18秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/11 19:33:50 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "f580fc4d-56f7-458e-b3e9-3b751600887f",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_77", "rogue_5_relic_legacy_127" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 5,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 2,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 172,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762838180",
+      "endTs" : "1762838607",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时07分07秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/11 13:23:27 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "42a89126-34f6-4584-ad8b-904166307a9f",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_1029_yato2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "UPGRADE_BONUS",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "麒麟R夜刀",
+        "isCandle" : true
+      }, {
+        "id" : "char_1045_svash2",
+        "rarity" : 5,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "凛御银灰",
+        "isCandle" : true
+      }, {
+        "id" : "char_4163_rosesa",
+        "rarity" : 4,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 70,
+        "name" : "瑰盐",
+        "isCandle" : true
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_127", "rogue_5_relic_fight_17", "rogue_5_relic_return_5", "rogue_5_relic_explore_2", "rogue_5_relic_legacy_136", "rogue_5_relic_legacy_45", "rogue_5_relic_legacy_70" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 11,
+      "cntBattleNormal" : 1,
+      "cntBattleElite" : 1,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 8,
+      "cntRecruitUpgrade" : 3,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_S_3_b",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_26_f",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_24_b",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_31_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "正经生意",
+      "score" : 250,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762823016",
+      "endTs" : "1762838176",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 04时12分40秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/11 13:16:16 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "d760ff81-b102-4929-b408-ce50a4321a00",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_1041_angel2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "新约能天使",
+        "isCandle" : true
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_fight_10", "rogue_5_relic_legacy_151", "rogue_5_relic_legacy_63", "rogue_5_relic_final_5" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 13,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 4,
+      "cntRecruitUpgrade" : 1,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 5,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_07_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_12_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_28_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "老戏骨",
+      "score" : 202,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762822464",
+      "endTs" : "1762823009",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时09分05秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/11 09:03:29 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "4810168e-8326-4b64-95d5-038aac37df48",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_86", "rogue_5_relic_return_17" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 8,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 2,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_32_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_31_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_24_e",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "狡鼷三窟",
+      "score" : 177,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762822025",
+      "endTs" : "1762822459",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时07分14秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/11 08:54:19 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "32e68686-b172-4644-9668-2798105a2f55",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1045_svash2",
+        "rarity" : 5,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "凛御银灰",
+        "isCandle" : true
+      }, {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_1041_angel2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "新约能天使",
+        "isCandle" : true
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_1045_svash2",
+        "rarity" : 5,
+        "profession" : "PIONEER",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "凛御银灰",
+        "isCandle" : true
+      }, {
+        "id" : "char_1041_angel2",
+        "rarity" : 5,
+        "profession" : "SPECIAL",
+        "type" : "NORMAL",
+        "upgradePhase" : 1,
+        "evolvePhase" : 2,
+        "level" : 90,
+        "name" : "新约能天使",
+        "isCandle" : true
+      }, {
+        "id" : "char_110_deepcl",
+        "rarity" : 3,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "深海色",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_92", "rogue_5_relic_explore_6", "rogue_5_relic_return_21", "rogue_5_relic_legacy_127", "rogue_5_relic_fight_10", "rogue_5_relic_legacy_63", "rogue_5_relic_bullet_3", "rogue_5_relic_final_5", "rogue_5_relic_explore_1", "rogue_5_relic_legacy_62", "rogue_5_relic_legacy_101", "rogue_5_relic_legacy_57", "rogue_5_relic_legacy_94", "rogue_5_relic_legacy_111", "rogue_5_relic_legacy_60", "rogue_5_relic_explore_11" ],
+      "cntCrossedZone" : 3,
+      "cntArrivedNode" : 21,
+      "cntBattleNormal" : 5,
+      "cntBattleElite" : 2,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 17,
+      "cntRecruitUpgrade" : 6,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_11_b",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_13_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_16_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_F_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 6,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_02_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ {
+        "name" : "挥金如土",
+        "icon" : "https://bbs.hycdn.cn/asset/rogue/1a58d9072434e21123c0edea46a88a35.png",
+        "description" : "在单局集成战略中，消耗的源石锭数量 ≥60",
+        "id" : 11,
+        "level" : 1
+      } ],
+      "lastStage" : "所守者，义",
+      "score" : 537,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762751567",
+      "endTs" : "1762822019",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 19时34分12秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/11 08:46:59 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 云瓦亭 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"天险多枯骨，向来如是。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "c5328d55-adde-4c8b-a7f0-fbf267ad58c5",
+      "modeGrade" : 15,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_4195_radian",
+        "rarity" : 5,
+        "profession" : "SUPPORT",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "电弧",
+        "isCandle" : true
+      }, {
+        "id" : "char_385_finlpp",
+        "rarity" : 3,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "清流",
+        "isCandle" : false
+      }, {
+        "id" : "char_445_wscoot",
+        "rarity" : 3,
+        "profession" : "WARRIOR",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "骋风",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_47", "rogue_5_relic_legacy_51", "rogue_5_relic_speg_6", "rogue_5_relic_legacy_151", "rogue_5_relic_explore_4", "rogue_5_relic_legacy_86", "rogue_5_relic_custog_11" ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 10,
+      "cntBattleNormal" : 1,
+      "cntBattleElite" : 1,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 8,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_03_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_05_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_02_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_04_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_R_07_c",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 3,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_S_8_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "老戏骨",
+      "score" : 240,
+      "band" : {
+        "id" : "rogue_5_band_23",
+        "name" : "岁影回音分队"
+      },
+      "startTs" : "1762608929",
+      "endTs" : "1762751562",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 岁影回音分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 39时37分13秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/10 13:12:42 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "ffa30fbb-4c17-4d81-ad32-4522fc4f7edd",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ ],
+      "cntCrossedZone" : 2,
+      "cntArrivedNode" : 5,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 0,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 7,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 120,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762588479",
+      "endTs" : "1762608921",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 05时40分42秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 21:35:21 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 山水阁 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"闲人勿入。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "b8b7d1ac-7755-4578-93bd-56816fa12629",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      }, {
+        "id" : "char_003_kalts",
+        "rarity" : 5,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "凯尔希",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      }, {
+        "id" : "char_003_kalts",
+        "rarity" : 5,
+        "profession" : "MEDIC",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "凯尔希",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 0,
+      "cntRecruitUpgrade" : 1,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "驱虫",
+      "score" : 29,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762588072",
+      "endTs" : "1762588472",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时06分40秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:54:32 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "d975cff3-035d-41fb-82c1-d33ad16ba1dd",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 0,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 27,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762587700",
+      "endTs" : "1762588065",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时06分05秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:47:45 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "13cb7f4c-86c1-4260-b6cf-395f1c6a5451",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 0,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 27,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762587347",
+      "endTs" : "1762587693",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时05分46秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:41:33 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "92b7d927-1d06-4095-90d0-82a45160a718",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 0,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 27,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762587007",
+      "endTs" : "1762587339",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时05分32秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:35:39 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "61dcc68d-3cd2-4d32-9f88-f0db12c301f4",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_55" ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 1,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "狡鼷三窟",
+      "score" : 33,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762586639",
+      "endTs" : "1762587000",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时06分01秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:30:00 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "0af74547-e027-4dfc-9233-c4076cbac627",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 0,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "驱虫",
+      "score" : 27,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762586268",
+      "endTs" : "1762586632",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时06分04秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:23:52 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "26e96e04-2c9c-4013-a86a-5f2d2d614c3e",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_return_13" ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 1,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "凭票入内",
+      "score" : 33,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762585913",
+      "endTs" : "1762586261",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时05分48秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:17:41 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    }, {
+      "id" : "980419d8-79bd-4514-ad7e-40c0fef4db53",
+      "modeGrade" : 3,
+      "mode" : "请君入园",
+      "success" : 0,
+      "lastChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "initChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 0,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "troopChars" : [ {
+        "id" : "char_1035_wisdel",
+        "rarity" : 5,
+        "profession" : "SNIPER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 80,
+        "name" : "维什戴尔",
+        "isCandle" : false
+      }, {
+        "id" : "char_196_sunbr",
+        "rarity" : 3,
+        "profession" : "TANK",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "古米",
+        "isCandle" : false
+      }, {
+        "id" : "char_328_cammou",
+        "rarity" : 3,
+        "profession" : "CASTER",
+        "type" : "NORMAL",
+        "upgradePhase" : 0,
+        "evolvePhase" : 1,
+        "level" : 60,
+        "name" : "卡达",
+        "isCandle" : false
+      } ],
+      "gainRelicList" : [ "rogue_5_relic_legacy_52" ],
+      "cntCrossedZone" : 0,
+      "cntArrivedNode" : 4,
+      "cntBattleNormal" : 2,
+      "cntBattleElite" : 0,
+      "cntBattleBoss" : 0,
+      "cntGainRelicItem" : 1,
+      "cntRecruitUpgrade" : 0,
+      "totemList" : [ {
+        "id" : "rogue_5_copper_B_06_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_07_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_08_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_09_a",
+        "count" : 1,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_10_a",
+        "count" : 2,
+        "type" : 0
+      }, {
+        "id" : "rogue_5_copper_B_01_a",
+        "count" : 4,
+        "type" : 0
+      } ],
+      "seed" : "",
+      "tagList" : [ ],
+      "lastStage" : "驱虫",
+      "score" : 33,
+      "band" : {
+        "id" : "rogue_5_band_5",
+        "name" : "后勤分队"
+      },
+      "startTs" : "1762585555",
+      "endTs" : "1762585905",
+      "endingText" : "[{\"type\":\"text\",\"content\":\"您\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" Dr.这位同学 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"使用\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 后勤分队 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"历时\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 00时05分50秒 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"于\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 2025/11/08 15:11:45 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"驻足在\",\"color\":\"#FFFFFF73\"},{\"type\":\"text\",\"content\":\" 洪陆楼 \",\"color\":\"#BCF4CA\",\"fontSize\":500},{\"type\":\"text\",\"content\":\"若遭变故，恕不赔偿。\",\"color\":\"#FFFFFF73\"}]",
+      "isCollect" : false
+    } ],
+    "favourRecords" : [ ],
+    "zone" : ""
+  },
+  "career" : {
+    "clearInfo" : {
+      "difficulty" : "请君入园",
+      "grade" : 15,
+      "endings" : [ "ro5_ending_1", "ro5_ending_2", "ro5_ending_3", "ro5_ending_4" ],
+      "endingGrade" : {
+        "ro5_ending_1" : 15,
+        "ro5_ending_2" : 15,
+        "ro5_ending_3" : 15,
+        "ro5_ending_4" : 15
+      }
+    },
+    "invest" : 0,
+    "gold" : 60,
+    "node" : 8181,
+    "hope" : 8470,
+    "upgrade" : 983,
+    "sacrifice" : 0,
+    "expedition" : 162,
+    "chaosGain" : 0,
+    "chaosLost" : 0,
+    "game" : 0,
+    "friend" : 0,
+    "abyss" : 0,
+    "totem" : 0,
+    "totemUse" : 0,
+    "enchant" : 0,
+    "relic" : 0,
+    "color" : {
+      "blue" : 0,
+      "red" : 0,
+      "green" : 0
+    },
+    "predict" : {
+      "totem" : 0,
+      "chaos" : 0
+    },
+    "travel" : 0,
+    "step" : 0,
+    "history" : 0,
+    "explore" : 0,
+    "memory" : 0,
+    "protect" : 0,
+    "alchemy" : {
+      "shield" : 0,
+      "relic" : 0,
+      "population" : 0
+    },
+    "fragment" : {
+      "wish" : 0,
+      "inspiration" : 0,
+      "idea" : 0
+    },
+    "visions" : [ ],
+    "modeStop" : { },
+    "wish" : 0,
+    "variation" : 0,
+    "mutation" : 0,
+    "diceTrend" : [ ],
+    "dice" : 0,
+    "coin" : 0,
+    "cost" : 0,
+    "endingSanList" : { },
+    "candle" : 1237,
+    "candleByBattle" : 50,
+    "trade" : 104,
+    "skyBattle" : 675,
+    "killRgdysm" : 860,
+    "dyspllKillChar" : 65,
+    "wrath" : {
+      "total" : 389,
+      "cnt12" : 45
+    },
+    "copperGain" : {
+      "id" : "",
+      "name" : "",
+      "value" : 0
+    },
+    "copperDraw" : {
+      "good" : 91,
+      "normal" : 2859,
+      "bad" : 110
+    },
+    "expeditionGuide" : 101
+  },
+  "all" : {
+    "endings" : {
+      "1" : 61.17,
+      "2" : 15.68,
+      "3" : 14.16,
+      "4" : 8.99
+    },
+    "activeTool" : [ {
+      "id" : "rogue_5_active_tool_1",
+      "name" : "支援补给站"
+    }, {
+      "id" : "rogue_5_active_tool_3",
+      "name" : "支援轰隆隆"
+    }, {
+      "id" : "rogue_5_active_tool_5",
+      "name" : "支援防暴桩"
+    } ],
+    "relic" : [ {
+      "id" : "rogue_5_relic_legacy_12",
+      "name" : "热水壶"
+    }, {
+      "id" : "rogue_5_relic_explore_3",
+      "name" : "家常小炒"
+    }, {
+      "id" : "rogue_5_relic_fight_3",
+      "name" : "束伥索"
+    }, {
+      "id" : "rogue_5_relic_fight_6",
+      "name" : "镜中境"
+    }, {
+      "id" : "rogue_5_relic_fight_10",
+      "name" : "伥物房账簿"
+    } ],
+    "character" : {
+      "CASTER" : {
+        "list" : [ {
+          "id" : "char_1038_whitw2",
+          "name" : "荒芜拉普兰德",
+          "rarity" : 5,
+          "profession" : "CASTER"
+        }, {
+          "id" : "char_4133_logos",
+          "name" : "逻各斯",
+          "rarity" : 5,
+          "profession" : "CASTER"
+        }, {
+          "id" : "char_1046_sbell2",
+          "name" : "圣聆初雪",
+          "rarity" : 5,
+          "profession" : "CASTER"
+        } ]
+      },
+      "MEDIC" : {
+        "list" : [ {
+          "id" : "char_002_amiya",
+          "name" : "阿米娅",
+          "rarity" : 4,
+          "profession" : "MEDIC"
+        }, {
+          "id" : "char_4179_monstr",
+          "name" : "Mon3tr",
+          "rarity" : 5,
+          "profession" : "MEDIC"
+        }, {
+          "id" : "char_003_kalts",
+          "name" : "凯尔希",
+          "rarity" : 5,
+          "profession" : "MEDIC"
+        } ]
+      },
+      "PIONEER" : {
+        "list" : [ {
+          "id" : "char_151_myrtle",
+          "name" : "桃金娘",
+          "rarity" : 3,
+          "profession" : "PIONEER"
+        }, {
+          "id" : "char_4087_ines",
+          "name" : "伊内丝",
+          "rarity" : 5,
+          "profession" : "PIONEER"
+        }, {
+          "id" : "char_497_ctable",
+          "name" : "晓歌",
+          "rarity" : 4,
+          "profession" : "PIONEER"
+        } ]
+      },
+      "SNIPER" : {
+        "list" : [ {
+          "id" : "char_1035_wisdel",
+          "name" : "维什戴尔",
+          "rarity" : 5,
+          "profession" : "SNIPER"
+        }, {
+          "id" : "char_4193_lemuen",
+          "name" : "蕾缪安",
+          "rarity" : 5,
+          "profession" : "SNIPER"
+        }, {
+          "id" : "char_4138_narant",
+          "name" : "娜仁图亚",
+          "rarity" : 5,
+          "profession" : "SNIPER"
+        } ]
+      },
+      "SPECIAL" : {
+        "list" : [ {
+          "id" : "char_1041_angel2",
+          "name" : "新约能天使",
+          "rarity" : 5,
+          "profession" : "SPECIAL"
+        }, {
+          "id" : "char_1029_yato2",
+          "name" : "麒麟R夜刀",
+          "rarity" : 5,
+          "profession" : "SPECIAL"
+        }, {
+          "id" : "char_355_ethan",
+          "name" : "伊桑",
+          "rarity" : 3,
+          "profession" : "SPECIAL"
+        } ]
+      },
+      "SUPPORT" : {
+        "list" : [ {
+          "id" : "char_4195_radian",
+          "name" : "电弧",
+          "rarity" : 5,
+          "profession" : "SUPPORT"
+        }, {
+          "id" : "char_1042_phatm2",
+          "name" : "酒神",
+          "rarity" : 5,
+          "profession" : "SUPPORT"
+        }, {
+          "id" : "char_4202_haruka",
+          "name" : "遥",
+          "rarity" : 5,
+          "profession" : "SUPPORT"
+        } ]
+      },
+      "TANK" : {
+        "list" : [ {
+          "id" : "char_196_sunbr",
+          "name" : "古米",
+          "rarity" : 3,
+          "profession" : "TANK"
+        }, {
+          "id" : "char_1044_hsgma2",
+          "name" : "斩业星熊",
+          "rarity" : 5,
+          "profession" : "TANK"
+        }, {
+          "id" : "char_2025_shu",
+          "name" : "黍",
+          "rarity" : 5,
+          "profession" : "TANK"
+        } ]
+      },
+      "WARRIOR" : {
+        "list" : [ {
+          "id" : "char_1043_leizi2",
+          "name" : "司霆惊蛰",
+          "rarity" : 5,
+          "profession" : "WARRIOR"
+        }, {
+          "id" : "char_4182_oblvns",
+          "name" : "丰川祥子",
+          "rarity" : 5,
+          "profession" : "WARRIOR"
+        }, {
+          "id" : "char_4145_ulpia",
+          "name" : "乌尔比安",
+          "rarity" : 5,
+          "profession" : "WARRIOR"
+        } ]
+      }
+    },
+    "wrath" : [ {
+      "id" : "rogue_5_wrath_8",
+      "name" : "申铸"
+    }, {
+      "id" : "rogue_5_wrath_2",
+      "name" : "巳农"
+    }, {
+      "id" : "rogue_5_wrath_5",
+      "name" : "未建"
+    } ],
+    "copper" : [ {
+      "id" : "rogue_5_copper_F_06",
+      "name" : "衡-虹霓"
+    }, {
+      "id" : "rogue_5_copper_F_02",
+      "name" : "衡-匪风"
+    }, {
+      "id" : "rogue_5_copper_F_01",
+      "name" : "衡-苦寒"
+    } ],
+    "ticket" : 655444566,
+    "candle" : [ {
+      "id" : "char_1035_wisdel",
+      "name" : "维什戴尔",
+      "rarity" : 5,
+      "profession" : "SNIPER"
+    }, {
+      "id" : "char_1041_angel2",
+      "name" : "新约能天使",
+      "rarity" : 5,
+      "profession" : "SPECIAL"
+    }, {
+      "id" : "char_4195_radian",
+      "name" : "电弧",
+      "rarity" : 5,
+      "profession" : "SUPPORT"
+    }, {
+      "id" : "char_1042_phatm2",
+      "name" : "酒神",
+      "rarity" : 5,
+      "profession" : "SUPPORT"
+    }, {
+      "id" : "char_002_amiya",
+      "name" : "阿米娅",
+      "rarity" : 4,
+      "profession" : "CASTER"
+    } ],
+    "costHp" : "750988880",
+    "nodePass" : 1001396860,
+    "fail" : 12563218,
+    "rotate" : 9860179,
+    "gold" : 8655955,
+    "raidian" : 595875711,
+    "san" : { },
+    "dice" : 0,
+    "coin" : 0,
+    "invest" : 0,
+    "cost" : 0,
+    "chaos" : [ ],
+    "game" : 0,
+    "spring" : 0,
+    "height" : 0,
+    "vision" : 0,
+    "totem" : {
+      "location" : "",
+      "effect" : ""
+    },
+    "disaster" : [ ],
+    "persuade" : 0,
+    "amiya" : "",
+    "alchemy" : 0,
+    "goldSave" : 0,
+    "tempUpgrade" : 0,
+    "expeditionGuide" : [ {
+      "id" : "char_1041_angel2",
+      "name" : "新约能天使",
+      "rarity" : 5,
+      "profession" : "SPECIAL"
+    }, {
+      "id" : "char_1035_wisdel",
+      "name" : "维什戴尔",
+      "rarity" : 5,
+      "profession" : "SNIPER"
+    }, {
+      "id" : "char_4195_radian",
+      "name" : "电弧",
+      "rarity" : 5,
+      "profession" : "SUPPORT"
+    }, {
+      "id" : "char_4182_oblvns",
+      "name" : "丰川祥子",
+      "rarity" : 5,
+      "profession" : "WARRIOR"
+    }, {
+      "id" : "char_1044_hsgma2",
+      "name" : "斩业星熊",
+      "rarity" : 5,
+      "profession" : "TANK"
+    } ]
+  },
+  "gameUserInfo" : {
+    "name" : "这位同学#0529",
+    "level" : 120,
+    "avatar" : {
+      "type" : "ASSISTANT",
+      "id" : "char_245_cello@sale#12",
+      "url" : "https://web.hycdn.cn/arknights/game/assets/char_skin/avatar/char_245_cello%40sale%2312.png"
+    },
+    "isOfficial" : true
+  },
+  "itemInfo" : {
+    "rogue_5_copper_B_01_a" : {
+      "name" : "大炎通宝",
+      "description" : "熔铸技兴，炎币一统。曰之通宝，随处可见。",
+      "usage" : "普通又空白，什么也没有"
+    },
+    "rogue_5_copper_B_02_a" : {
+      "name" : "厉-西廉贞",
+      "description" : "西靠穷山，怪石嶙峋。小人得势，祸心包藏。",
+      "usage" : "投出时，精英及领袖敌人的生命值、攻击力+10%，在险路恶敌及岁兽残识中攻击力、生命值额外+20％"
+    },
+    "rogue_5_copper_B_03_a" : {
+      "name" : "厉-北刺面",
+      "description" : "北窗有松，峥峥如怪，其枝冲面，唯有避之。",
+      "usage" : "投出时，精英及领袖敌人的移动速度+10%，在险路恶敌及岁兽残识中移动速度额外+20％"
+    },
+    "rogue_5_copper_B_04_a" : {
+      "name" : "厉-南见山",
+      "description" : "坐北朝南，开门见山。重峦叠嶂，且挡其势。",
+      "usage" : "投出时，精英及领袖敌人的防御力+15%，在险路恶敌及岁兽残识中防御力额外+35％"
+    },
+    "rogue_5_copper_B_05_a" : {
+      "name" : "厉-东缺角",
+      "description" : "天圆地方，东缺一角。言不入耳，家宅不宁。",
+      "usage" : "投出时，精英及领袖敌人的法术抗性+10，在险路恶敌及岁兽残识中法术抗性额外+20"
+    },
+    "rogue_5_copper_B_06_a" : {
+      "name" : "衡-奇土生金",
+      "description" : "奇土覆币，闻有金臭。盈盈聚财，土亦消匿。",
+      "usage" : "投出时，立即获得源石锭+4（下次投钱前变化为-大炎通宝）"
+    },
+    "rogue_5_copper_B_07_a" : {
+      "name" : "衡-水生木护",
+      "description" : "埋之地下，可见水光。生木护宅，水光渐散。",
+      "usage" : "投出时，立即获得护盾值+2（下次投钱前变化为-大炎通宝）"
+    },
+    "rogue_5_copper_B_08_a" : {
+      "name" : "衡-金寒水衍",
+      "description" : "币掺异金，抚之极寒。凝露其上，盈盈水色。",
+      "usage" : "投出时，立即获得希望+1（下次投钱前变化为-大炎通宝）"
+    },
+    "rogue_5_copper_B_09_a" : {
+      "name" : "花-火灼土沃",
+      "description" : "灼烫难触，落地即燃。火熄烟灭，土肥草长。",
+      "usage" : "投出时，立即获得目标生命上限+1（下次投钱前变化为-大炎通宝）"
+    },
+    "rogue_5_copper_B_10_a" : {
+      "name" : "衡-投木炎延",
+      "description" : "嵌于柴中，无可取下。投之敌营，猛火不灭。",
+      "usage" : "投出时，所有敌人最大生命值-30%（下次投钱前变化为-大炎通宝）"
+    },
+    "rogue_5_copper_F_03_a" : {
+      "name" : "衡-霖雨",
+      "description" : "霖雨霏霏，疏渠活水。润叶泽茎，风雨时也。",
+      "usage" : "投出时，使战斗中位于最右边一列化境地块上的干员生命值+100%"
+    },
+    "rogue_5_copper_F_05_a" : {
+      "name" : "衡-旱热",
+      "description" : "朝霞暮霞，无水煎茶。牧草盈仓，有备无患。",
+      "usage" : "投出时，使战斗中位于最左边一列化境地块上的干员防御力+100%"
+    },
+    "rogue_5_copper_F_07_a" : {
+      "name" : "衡-雾凇",
+      "description" : "冽彼冰花，太平佳兆。其始播谷，风调雨顺。",
+      "usage" : "投出时，使战斗中位于最左边一列化境地块上的干员生命值+100%"
+    },
+    "rogue_5_copper_F_07_c" : {
+      "name" : "衡-雾凇",
+      "description" : "冽彼冰花，太平佳兆。其始播谷，风调雨顺。",
+      "usage" : "投出时，使战斗中位于最左边一列化境地块上的干员生命值+100%<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_F_08_a" : {
+      "name" : "衡-霜雪",
+      "description" : "冰封霜降，驰道难行。川流车乘，让礼三分。",
+      "usage" : "投出时，使战斗中位于最左边一列化境地块上的干员攻击力+60%"
+    },
+    "rogue_5_copper_F_10_a" : {
+      "name" : "花-武人之争",
+      "description" : "东拳西腿，争胜永日。好事者众，各学几分。",
+      "usage" : "投出时，所有我方单位的攻击力+20%，每额外投出一次，所有我方单位的攻击力额外+20％（最多叠加两次）"
+    },
+    "rogue_5_copper_F_14_c" : {
+      "name" : "衡-慧避灾",
+      "description" : "钦天之眼，目光炯炯。防灾其冗，化繁为简。",
+      "usage" : "投出时，所有我方单位在部署时获得4层护盾，每额外投出一次，获得护盾层数-1（最多减少至0）<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_F_15_a" : {
+      "name" : "厉-战血流",
+      "description" : "烽动鼓鸣，千军即发。武极弭乱，亦能致乱。",
+      "usage" : "投出时，所有敌方单位的最大生命值-45%，我方单位的最大生命值-25%"
+    },
+    "rogue_5_copper_F_16_a" : {
+      "name" : "厉-遇良弈",
+      "description" : "棋逢对手，相与有成。弈枰胜负，谋定看天。",
+      "usage" : "投出时，所有敌方单位的攻击力+25%，我方单位的攻击力+60%"
+    },
+    "rogue_5_copper_F_18_c" : {
+      "name" : "厉-法与律",
+      "description" : "法之为公，情无可恕。律之悦情，翩翾若舞。",
+      "usage" : "投出时，所有我方单位再部署时间-65％，但我方可同时部署人数-2<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_F_21_d" : {
+      "name" : "厉-人间长存",
+      "description" : "钢铁拟心，岂能久乎。欲存于世，砥砺必行。",
+      "usage" : "投出时，干员首次被击倒不撤退，原地再部署并随机选择部署方向<color=#2fac78>\\n入幻：加入钱盒时，获得希望+1</color>"
+    },
+    "rogue_5_copper_F_22_d" : {
+      "name" : "厉-神农守",
+      "description" : "枯田万亩，静守千年，壤成膏沃，百谷丰登。",
+      "usage" : "投出时，所有我方干员造成伤害时获得2点技力，但技力恢复速度-1/秒<color=#2fac78>\\n入幻：加入钱盒时，获得希望+1</color>"
+    },
+    "rogue_5_copper_F_24_a" : {
+      "name" : "厉-一字落",
+      "description" : "教而化之，民识愈开。无字无念，了了忘缘。",
+      "usage" : "投出时，初始的部署费用+99，费用自然回复速度降低50%"
+    },
+    "rogue_5_copper_F_24_b" : {
+      "name" : "厉-一字落",
+      "description" : "教而化之，民识愈开。无字无念，了了忘缘。",
+      "usage" : "投出时，初始的部署费用+99，费用自然回复速度降低50%<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>"
+    },
+    "rogue_5_copper_F_24_c" : {
+      "name" : "厉-一字落",
+      "description" : "教而化之，民识愈开。无字无念，了了忘缘。",
+      "usage" : "投出时，初始的部署费用+99，费用自然回复速度降低50%<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_F_24_e" : {
+      "name" : "厉-一字落",
+      "description" : "教而化之，民识愈开。无字无念，了了忘缘。",
+      "usage" : "投出时，初始的部署费用+99，费用自然回复速度降低50%<color=#2fac78>\\n引光：加入钱盒时，获得烛火+1</color>"
+    },
+    "rogue_5_copper_F_26_b" : {
+      "name" : "厉-画人间",
+      "description" : "良辰美景，自有去时。未若画中，墨香长留。",
+      "usage" : "在界园投出时，所有我方单位的攻击速度-20；在岁兽残识投出时，所有我方单位的攻击速度+60<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>"
+    },
+    "rogue_5_copper_F_26_f" : {
+      "name" : "厉-画人间",
+      "description" : "良辰美景，自有去时。未若画中，墨香长留。",
+      "usage" : "在界园投出时，所有我方单位的攻击速度-20；在岁兽残识投出时，所有我方单位的攻击速度+60<color=#2fac78>\\n巡游：投出后，每完成一场战斗，获得票券+1</color>"
+    },
+    "rogue_5_copper_F_28_a" : {
+      "name" : "衡-挪移",
+      "description" : "借土挪移，天师妙法。纵有天险，须臾即至。",
+      "usage" : "投出时，化境地块上的干员撤离时返还的部署费用变为100%"
+    },
+    "rogue_5_copper_F_30_a" : {
+      "name" : "厉-生材百相",
+      "description" : "可成玩物，可成器具。可成武备，可成栋梁。",
+      "usage" : "投出时，战斗开始时打乱所有干员的攻击力"
+    },
+    "rogue_5_copper_F_31_a" : {
+      "name" : "衡-重铠",
+      "description" : "精铁百炼，披覆周身。兵灾难侵，寸步难移。",
+      "usage" : "投出时，所有我方干员防御力+50%，生命+50%，但部署费用+5"
+    },
+    "rogue_5_copper_F_32_a" : {
+      "name" : "厉-火机",
+      "description" : "人有巧械，可撼群兽。以火为引，地动山摇。",
+      "usage" : "投出时，所有我方干员攻击力+30%，但再部署时间+30%"
+    },
+    "rogue_5_copper_F_32_c" : {
+      "name" : "厉-火机",
+      "description" : "人有巧械，可撼群兽。以火为引，地动山摇。",
+      "usage" : "投出时，所有我方干员攻击力+30%，但再部署时间+30%<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_R_01_a" : {
+      "name" : "衡-庆丰收",
+      "description" : "农忙事毕，影戏喧喧。祈愿来年，时和岁丰。",
+      "usage" : "加入钱盒时，立即获得目标生命上限+2，投出时，安全的角落出现额外选项"
+    },
+    "rogue_5_copper_R_02_a" : {
+      "name" : "衡-塞上月",
+      "description" : "漠上圆月，寒沙白草。将士出塞，铁衣如雪。",
+      "usage" : "投出时，立即获得护盾值+1，每次战斗后目标生命-1，护盾值+1"
+    },
+    "rogue_5_copper_R_07_c" : {
+      "name" : "厉-合乎礼",
+      "description" : "喜宴嘉宾，厚礼相赠。还礼与否，忧以忘喜。",
+      "usage" : "加入钱盒时，立即获得源石锭+30，每次投出时，源石锭-10<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_R_10_a" : {
+      "name" : "花-平沙之盾",
+      "description" : "边城屡覆，寇乱沙碛。终得一城，走沙御敌。",
+      "usage" : "投出时，每有1点护盾值，所有我方单位的最大生命值+5%"
+    },
+    "rogue_5_copper_R_11_b" : {
+      "name" : "花-火上之灶",
+      "description" : "矿以为火，城以为灶。化灾为宜，进取奇速。",
+      "usage" : "投出时，每有2点源石锭，所有我方单位的攻速+3<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>"
+    },
+    "rogue_5_copper_R_12_a" : {
+      "name" : "花-界园行",
+      "description" : "上游岁识，下览亭园。此间之乐，没齿难忘。",
+      "usage" : "位于钱盒内时，从先行一步返回的干员带回更多票券；在界园投出时可以刷新节点且必定出现先行一步，可使用1次"
+    },
+    "rogue_5_copper_R_12_c" : {
+      "name" : "花-界园行",
+      "description" : "上游岁识，下览亭园。此间之乐，没齿难忘。",
+      "usage" : "位于钱盒内时，从先行一步返回的干员带回更多票券；在界园投出时可以刷新节点且必定出现先行一步，可使用1次<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_R_13_a" : {
+      "name" : "衡-债难偿",
+      "description" : "一时之利，目眩神移。代代清偿，无边无际。",
+      "usage" : "加入钱盒时，获得6目标生命值上限；投出时，每经过一个非战斗节点，失去1目标生命值上限（不会低于1）"
+    },
+    "rogue_5_copper_R_14_a" : {
+      "name" : "衡-触锁代币",
+      "description" : "诡秘商贾，行销万物。以币为信，抛之即至。",
+      "usage" : "在界园投出时可以刷新节点且必定出现诡意行商，可使用1次"
+    },
+    "rogue_5_copper_R_15_a" : {
+      "name" : "花-延识镇木",
+      "description" : "园有奇木，可通岁识。塑之为币，抛之即用。",
+      "usage" : "在界园投出时可以刷新节点且必定出现一个进入是非境的误入奇境，可使用1次"
+    },
+    "rogue_5_copper_S_2_c" : {
+      "name" : "衡-鸿蒙开荒",
+      "description" : "百氏从炎，避祸迁徙。两江之畔，垦墟为田。",
+      "usage" : "在界园投出时，立即获得4张票券。在岁兽残识投出时，剩余烛火+2（下次投钱前变化为-大炎通宝）<color=#2fac78>\\n存护：加入钱盒时，获得护盾值+2</color>"
+    },
+    "rogue_5_copper_S_3_a" : {
+      "name" : "花-己任重",
+      "description" : "平步青云，志在万里。云浮霞动，且兢其步。",
+      "usage" : "投出时，非因指挥等级提升获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）"
+    },
+    "rogue_5_copper_S_3_b" : {
+      "name" : "花-己任重",
+      "description" : "平步青云，志在万里。云浮霞动，且兢其步。",
+      "usage" : "投出时，非因指挥等级提升获得源石锭，护盾值，希望时，获得数量+1（下次投钱前变化为-大炎通宝）<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>"
+    },
+    "rogue_5_copper_S_7_a" : {
+      "name" : "厉-商路难行",
+      "description" : "国之初开，荒路匪起。出金买路，镖匪同存。",
+      "usage" : "位于钱盒内时，当前节点获得纵向通路。投出时，源石锭-5"
+    },
+    "rogue_5_copper_S_8_a" : {
+      "name" : "花-孜孜不倦",
+      "description" : "跬步千里，聚沙成塔。稍有懈怠，再难复返。",
+      "usage" : "位于钱盒内时，每经过一个节点，获得2源石锭（下次投钱前变化为-大炎通宝）"
+    },
+    "rogue_5_copper_U_5_b" : {
+      "name" : "衡-初有文",
+      "description" : "炎字为首，千字呼出。同文同心，百氏共荣。",
+      "usage" : "在界园投出时，生效期间可刷新节点一次。可在筹谋中升级<color=#2fac78>\\n锈色：投出时，每经过一个节点，获得源石锭+1</color>"
+    },
+    "rogue_5_copper_U_7_a" : {
+      "name" : "衡-勤运体",
+      "description" : "轻舞缓行，习拳蹬腿。晨园熙攘，日日不倦。",
+      "usage" : "投出时，战斗结束后额外掉落1点目标生命值，可在筹谋中升级"
+    },
+    "rogue_5_relic_blockg_3" : {
+      "name" : "炭面",
+      "description" : "一位古代大炎英雄的脸谱。有记载称其胆大心细，喝声可断江河。",
+      "usage" : "敌人首次被阻挡时，恐惧5秒"
+    },
+    "rogue_5_relic_bullet_1" : {
+      "name" : "传芳雕版",
+      "description" : "流行诗集的枣木雕版。见到自己眼中欠佳的俗诗雕版广为流传时，清高文人往往嗤之以鼻：“哼，可悲枣树，罪不至此。”",
+      "usage" : "干员开启弹药类技能后，每次造成伤害时，攻击力+2%（最多叠加30层）"
+    },
+    "rogue_5_relic_bullet_3" : {
+      "name" : "《炎国字汇》",
+      "description" : "炎国的第一本通用字典，由民间作者历经十年完成。编者常叹书薄而字多，为无法收录、注定失传的生僻字立有一方字冢。",
+      "usage" : "弹药类技能每次开启后，首次剩余30%的弹药时，补充最大弹药数量30%的弹药"
+    },
+    "rogue_5_relic_bullet_4" : {
+      "name" : "《雅集》",
+      "description" : "炎国的第一部诗集，收录了当年传唱最广的诗篇。因其广受欢迎，促使民间抄诗与写诗的热情剧增，一度导致当年的纸墨供不应求。",
+      "usage" : "弹药类技能每次开启后，首次剩余30%的弹药时，补充最大弹药数量50%的弹药"
+    },
+    "rogue_5_relic_cardg_3" : {
+      "name" : "士影",
+      "description" : "为纪念一位守城将士而制的皮影。传闻其在边防战中带数名士兵守城百日，城破之时，其屹立城头，随之没入黄沙。玉门城建成后，曾为其立像纪念。",
+      "usage" : "每次部署待部署区最右侧的干员时，使全场干员获得消耗费用一定比例的屏障"
+    },
+    "rogue_5_relic_cardg_5" : {
+      "name" : "艺影",
+      "description" : "为纪念一位传奇舞者而制的皮影。传闻其舞于大江，舞出巨浪之势；舞于林间，舞出春芽之美。其一生为舞，年老后受伤隐退，不久便撒手人寰。无数舞者仿其姿而不得其意，可惜可叹。",
+      "usage" : "进入战斗时，待部署区最左侧的干员初始技力+10，攻击速度+30，攻击力+30%"
+    },
+    "rogue_5_relic_custog_11" : {
+      "name" : "“岁花”",
+      "description" : "双符相合，故人昔事几何？",
+      "usage" : "所有干员的部署费用+3，编队中每有一名【伺烛客】，则【伺烛客】的生命值，攻击力，防御力+10%"
+    },
+    "rogue_5_relic_explore_1" : {
+      "name" : "引火兽筝",
+      "description" : "参照巨兽造型设计制作的风筝。飘带用烛火点燃，不灭，也不毁风筝。平日里放飞，在步入岁识时可借其火光，多行一步。",
+      "usage" : "每次进入岁兽残识时获得1点烛火"
+    },
+    "rogue_5_relic_explore_11" : {
+      "name" : "寅诗壶",
+      "description" : "岁兽残识第三个时辰入髓后凝聚的实物，形为酒壶。以轶事佐酒，便可见其虚漫的逍遥。",
+      "usage" : "希望+2，使当前或下次进入的岁兽残识中部分传说与抉择节点变为可探索状态，在部分传说节点中有奇妙的作用"
+    },
+    "rogue_5_relic_explore_13" : {
+      "name" : "镇陵哨",
+      "description" : "镇陵木所做的哨子，吹响后意识便会随着气流一同离体，木哨则会化作柴薪，点燃稳定心神的烛火。",
+      "usage" : "本次离开商店时，立即进入岁兽残识并获得3烛火"
+    },
+    "rogue_5_relic_explore_2" : {
+      "name" : "“福祸相依”",
+      "description" : "如在界园中遇到半行诗，须迅速将此桃木挂饰按压其上。小灾已不可免，然而，祸兮福之所倚。切勿对诗。切勿对诗。切勿对诗。",
+      "usage" : "钱盒中加入厉钱时，获得1张票券"
+    },
+    "rogue_5_relic_explore_3" : {
+      "name" : "家常小炒",
+      "description" : "天为盖，地为锅，嬉笑怒骂，皆为调味。人哪，只要愿意好好吃饭，也就还能好好活着。",
+      "usage" : "所有干员的生命值+20%，攻击力+20%；每通过一场岁兽残识中的战斗，效果额外提升10%"
+    },
+    "rogue_5_relic_explore_4" : {
+      "name" : "罗德岛应急救援车",
+      "description" : "无论你的指令是去往何处——精英干员，使命必达！",
+      "usage" : "希望+2，在岁兽残识战斗时，获得1名随机的罗德岛精英干员支援"
+    },
+    "rogue_5_relic_explore_6" : {
+      "name" : "飞驮客运",
+      "description" : "炎国驰道初开时风靡一时的畜力载具。随着驰道普及，更高速耐久的载具兴起，驰道上飞奔的驮兽身影逐渐消失，随时可能被甩上大道的刺激乘车体验也慢慢被人们遗忘。",
+      "usage" : "编队中每有一名【伺烛客】，所有【伺烛客】攻击速度+5（最大叠加10层）"
+    },
+    "rogue_5_relic_explore_7" : {
+      "name" : "子武剑",
+      "description" : "岁兽残识第一个时辰入髓后凝聚的实物，形为刀兵。以厮杀洗砺，便可见其锋锐的怒意。",
+      "usage" : "使当前或下次进入的岁兽残识中所有祸乱节点变为可探索状态，我方所有干员再部署时间-5%，每完成一个祸乱节点叠加1层，最多6层"
+    },
+    "rogue_5_relic_explore_8" : {
+      "name" : "午商梭",
+      "description" : "岁兽残识第七个时辰入髓后凝聚的实物，形为织梭。以沟通编织，便可见其层叠的愁思。",
+      "usage" : "使当前或下次进入的岁兽残识中所有易与节点变为可探索状态，易与节点中的商品打折，且在任意商店中购买当前所有商品后，该商店下次刷新不消耗票券"
+    },
+    "rogue_5_relic_explore_9" : {
+      "name" : "申铸轮",
+      "description" : "岁兽残识第九个时辰入髓后凝聚的实物，形为铜轮。以好奇煅烧，便可见其脱逸的豁达。",
+      "usage" : "希望+1，源石锭+3，使当前或下次进入的岁兽残识中所有常乐节点变为可探索状态，在部分常乐节点中有奇妙的作用"
+    },
+    "rogue_5_relic_farmer_1" : {
+      "name" : "易锁",
+      "description" : "易的发明之一，绩用此牟利颇多。既是摆件，又是益智玩具，若能弄清其中奥秘，或许对“岁”的理解能更多一分。",
+      "usage" : "在化境地块上随机选择2个可部署位置，每次在该位置部署干员时，获得8点部署费用（在失与得中可以升级）"
+    },
+    "rogue_5_relic_farmer_5" : {
+      "name" : "《围棋入门布局篇》",
+      "description" : "方圆之间，此着为何？棋枰响止，酣畅淋漓。一局终了......时移世易。",
+      "usage" : "战斗开始后，随机选择3个可部署的地面化境地块，部署“失修舞台雾机”"
+    },
+    "rogue_5_relic_fight_10" : {
+      "name" : "伥物房账簿",
+      "description" : "柳儿热情邀请你“试用”伥物房的新发明，你以囊中羞涩为由婉拒，却看到她爽快地在账簿上划拉了几笔。现在，你的理由不成立了。",
+      "usage" : "战术道具，召唤物，装置的部署费用减10"
+    },
+    "rogue_5_relic_fight_12" : {
+      "name" : "“成玦”",
+      "description" : "界园主人所赠玉佩。园中偶遇良友，一路同行，欲邀你去他处游玩，婉拒后其人嘴脸骤变，强行拉扯你后却如遭烫般缩手逃开。你松口气，发现腰间玉佩已裂了一块。",
+      "usage" : "部署在化境地块上干员，首次被击倒时不撤退且回复30%生命"
+    },
+    "rogue_5_relic_fight_13" : {
+      "name" : "零嘴背篓",
+      "description" : "园林外贩卖的，装满零嘴的背篓，却在入园检查时被扣押。工作人员脸色难看地询问这东西从何而来，你如实回答后，他们一边安慰你没事，一边立刻抄起形状可疑的工具向你说的方向奔去。",
+      "usage" : "战斗开始时所有干员自然回复技力的速度+100%，任意干员手动释放技能时失效"
+    },
+    "rogue_5_relic_fight_15" : {
+      "name" : "修习雷针",
+      "description" : "位于天师府山巅的修习雷法之所。雷法学徒初学引雷之时，都需借助雷针，直至熟能生巧。在天师府别名“前辈”。",
+      "usage" : "干员每使用过一次技能，自身的技力自然回复速度+0.4/秒，最多叠加5层"
+    },
+    "rogue_5_relic_fight_17" : {
+      "name" : "墙眼",
+      "description" : "它的意识已然存在。它的步伐困于墙中。它为你遮风挡灾。它注视你的远去。",
+      "usage" : "我方干员受到来自自身攻击范围以外的物理与法术伤害降低50%"
+    },
+    "rogue_5_relic_fight_2" : {
+      "name" : "《拳经三问》",
+      "description" : "朔的第一本武学笔记，记录了他对拳法的思考。一问拳招，二问拳意，三问武境。据说言语晦涩，学生苦读不懂，他向妹妹请教后又做了改良。",
+      "usage" : "干员每使用过一次技能，自身的攻击力+5%，最多叠加40层"
+    },
+    "rogue_5_relic_fight_3" : {
+      "name" : "束伥索",
+      "description" : "被司岁台收编的伥怪在做活时所戴的标记、约束之索。主动倒水的茶壶、努力浇花的花洒，它们十分擅长简单重复的工作。",
+      "usage" : "【召唤物】的部署费用-5，再部署时间-25%，攻击力+30%"
+    },
+    "rogue_5_relic_fight_4" : {
+      "name" : "“阿猛”",
+      "description" : "百年前岁兽苏醒的灾祸中，司岁台曾借助经特殊训练的循兽，对伥怪进行全方位的搜索及消灭。此陶制品为纪念当时牺牲的循兽而制。",
+      "usage" : "所有敌方单位受到的元素伤害+100%"
+    },
+    "rogue_5_relic_fight_5" : {
+      "name" : "赏善郎",
+      "description" : "天师府学徒自主研制的考校辅助器。答对问题时什么也得不到。答错时......还是别尝试了吧。",
+      "usage" : "干员触发闪避或抵挡后，下次攻击造成的伤害+100%"
+    },
+    "rogue_5_relic_fight_6" : {
+      "name" : "镜中境",
+      "description" : "常悬于界园门窗之上的镜子。当游客遇到突如其来的危机，镜中之境便是他们的紧急避难所——直至镜子碎裂。",
+      "usage" : "敌人首次造成的伤害-90%"
+    },
+    "rogue_5_relic_fight_7" : {
+      "name" : "长明灯引",
+      "description" : "首次登升之人，为保其心智不被岁识淹没，持燃烛在手。瞢暗迫近，而烛火长明，为其在长夜中锚定意识归来之路。“秉烛”之名亦从中而来。",
+      "usage" : "第一名部署的地面干员攻击力+50%、并获得抵抗、50%元素损伤减免，持续至被击倒或撤离"
+    },
+    "rogue_5_relic_fight_9" : {
+      "name" : "旦夕墨宝",
+      "description" : "鳞在画卷中游动时吐出的一个又一个泡泡，会带来一些奇异之效。画卷主人不在乎有人擅自触碰它们，反正过不了多久，它们就会破裂，随风消散。",
+      "usage" : "战斗开始时，随机获得一件仅用于该次战斗的战术道具"
+    },
+    "rogue_5_relic_final_3" : {
+      "name" : "隐蝶墨",
+      "description" : "柳儿在研究的伥物，采朔之武籍，研岁陵残石而成。本为雕岁乌墨，岁形已逸，以蝶替之，然蝶畏岁威，需驱岁以安蝶。",
+      "usage" : "携带此收藏品时，作战会遭遇“岁躯”的袭击"
+    },
+    "rogue_5_relic_final_4" : {
+      "name" : "墨化残碑",
+      "description" : "蝶驻墨端，“文字”于层层包裹之下显现。失佚的部分已不可明辨，但依字形与偏旁推测，这是一份对于亲属的遥思。",
+      "usage" : "战斗开始时，随机选择一名干员，使该干员本场战斗的部署费用变为0，携带此收藏品时，可以在命运所指中让探索开启不同的方向"
+    },
+    "rogue_5_relic_final_5" : {
+      "name" : "无封长盒",
+      "description" : "易流落于岁兽残识中的藏盒。失名失绘，无刻无印。",
+      "usage" : "领袖与精英敌人防御力+30%，攻击速度+20，关卡结束时每有一个仍在场的雕伥，失去1目标生命值（不会低于1），在先行一步中有奇妙的作用"
+    },
+    "rogue_5_relic_final_6" : {
+      "name" : "无墨长卷",
+      "description" : "人与岁兽共同的记忆将藏盒开启，长卷远探，寻找能在这方素白上着墨的往昔。",
+      "usage" : "希望+3，使见字祠中的险路恶敌更加艰难，让探索开启不同的方向"
+    },
+    "rogue_5_relic_legacy_10" : {
+      "name" : "Miss.Christine摸摸券",
+      "description" : "你已经获得了女士的准许！",
+      "usage" : "立即进阶两个干员（不消耗希望）"
+    },
+    "rogue_5_relic_legacy_101" : {
+      "name" : "铁卫-无锋",
+      "description" : "他们承受的每一次攻击，都将化作怒火数倍返还。",
+      "usage" : "所有【重装】干员在受到攻击后获得2点技力，并且技力消耗-20%"
+    },
+    "rogue_5_relic_legacy_103" : {
+      "name" : "断杖-突破",
+      "description" : "让技艺在指尖起舞，呼风唤雨，搅乱现实，达成你宏伟的目的。",
+      "usage" : "所有【术师】干员的部署费用-3，生命+60%，法术抗性+10"
+    },
+    "rogue_5_relic_legacy_104" : {
+      "name" : "支柱-突破",
+      "description" : "当“差一点完成任务”的时候，你需要的正是那个帮你补上“差一点”的人。",
+      "usage" : "所有【辅助】干员的部署费用-2，生命+40%，获得15%法术闪避"
+    },
+    "rogue_5_relic_legacy_108" : {
+      "name" : "残弩-交叉火力",
+      "description" : "密集的火力网布置同时让狙击干员们暴露在危险之中，接下来是一场关于准星的博弈。",
+      "usage" : "所有【狙击】干员的攻击力+40%"
+    },
+    "rogue_5_relic_legacy_11" : {
+      "name" : "古旧铸物",
+      "description" : "“天有洪炉，地生五金”......虽然可以用来成就各种事业，却没人知道具体原理。",
+      "usage" : "立即进阶三个干员（不消耗希望）"
+    },
+    "rogue_5_relic_legacy_111" : {
+      "name" : "无瑕宝玉",
+      "description" : "即便城池三度因其而毁，它也依然光洁无瑕，无可挑剔。持有它的萨尔贡皇帝直至今日都没想好用什么珠宝与之相衬，只有争斗的硝烟永伴。",
+      "usage" : "立即获得源石锭+25"
+    },
+    "rogue_5_relic_legacy_117" : {
+      "name" : "源石鸢尾花",
+      "description" : "极尽奢华的花朵，剧团长在谢幕时向主演献花的次数寥寥无几。",
+      "usage" : "希望+6，可携带干员+2"
+    },
+    "rogue_5_relic_legacy_12" : {
+      "name" : "热水壶",
+      "description" : "罗德岛办公室里的同款热水壶，有人经常大半夜用热水壶煮速食面吃，这种生活习惯不是很健康......",
+      "usage" : "目标生命上限+1，希望+1"
+    },
+    "rogue_5_relic_legacy_126" : {
+      "name" : "阿卡胡拉饭碗",
+      "description" : "水果是当地人的主食之一，现采现食也是常有的事。",
+      "usage" : "回复4目标生命，护盾值+2"
+    },
+    "rogue_5_relic_legacy_127" : {
+      "name" : "血魔的寝床",
+      "description" : "一副奢华的棺木，和古堡十分般配，华法琳说这就是刻板印象。",
+      "usage" : "目标生命上限+4"
+    },
+    "rogue_5_relic_legacy_13" : {
+      "name" : "香草沙士汽水",
+      "description" : "玻利瓦尔本地的廉价饮料，拥有上百年历史，混合多种香料，特点是不好喝。",
+      "usage" : "所有自然回复技能的技力恢复+0.2/秒"
+    },
+    "rogue_5_relic_legacy_131_c" : {
+      "name" : "橙味风暴-γ",
+      "description" : "约翰老妈糖果产品，畅销橙子味，以廉价美味为卖点，在孩子中很有人气。",
+      "usage" : "可携带干员+1，所有我方近战单位的攻击力+11%"
+    },
+    "rogue_5_relic_legacy_136" : {
+      "name" : "摩根队长佳酿",
+      "description" : "一种产自伊比利亚地区的酒，在维多利亚中部城市大受欢迎，现已停产。",
+      "usage" : "初始技力+5，所有攻击和受击回复的技能每3秒回复1点技力"
+    },
+    "rogue_5_relic_legacy_144" : {
+      "name" : "设计师量尺",
+      "description" : "在数据、经验以及精确测量下，身着铠甲的人多了几分幸运。",
+      "usage" : "所有我方单位获得15%物理闪避，且触发闪避后6秒内攻击力+30%"
+    },
+    "rogue_5_relic_legacy_145" : {
+      "name" : "“法术杀手”",
+      "description" : "由于莱塔尼亚人的源石技艺与音乐息息相关，有人竟想出了用噪音对抗法术的蠢主意。",
+      "usage" : "所有我方单位获得15%法术闪避，且触发闪避后6秒内攻击力+30%"
+    },
+    "rogue_5_relic_legacy_148" : {
+      "name" : "天穹尘埃",
+      "description" : "她轻轻吹动无数次日升月落、星辰更替的记录。她的生命轻易就被吹走。",
+      "usage" : "远程干员在手动开启技能时，使攻击范围内的所有敌人浮空5秒"
+    },
+    "rogue_5_relic_legacy_151" : {
+      "name" : "烟烛",
+      "description" : "收集烛堂烟火后制作的灰烛，点燃便会消散，然而在那逝去烟云中所见的往事，将在某人的心中塑成一根不灭的心烛。",
+      "usage" : "为一名未燃烛的干员燃烛"
+    },
+    "rogue_5_relic_legacy_16" : {
+      "name" : "精神治疗录像带",
+      "description" : "这是他曾经多次阻止你听的，他说这很危险，他说你不该逗留——现在你明白了吗？你在听他唱歌。",
+      "usage" : "敌人受到的一次性晕眩、寒冷、冻结等异常效果影响时间提高150%"
+    },
+    "rogue_5_relic_legacy_18" : {
+      "name" : "“璀璨悲泣”",
+      "description" : "他的血液仍在流淌，他从不曾真的自这里离开。",
+      "usage" : "所有敌方单位受到的法术伤害+40%"
+    },
+    "rogue_5_relic_legacy_20" : {
+      "name" : "军团护心镜",
+      "description" : "这种甲片曾经能够防护住针对心脏的致命伤害，但随着高卢没落，护心镜这种过时的护甲样式也退出了历史舞台。",
+      "usage" : "所有我方单位的防御力+25%"
+    },
+    "rogue_5_relic_legacy_33_c" : {
+      "name" : "地形图-γ",
+      "description" : "一份颇有年代感的手绘地图，图上的名称和对应地形都有较大更易，比例尺似乎也有些问题。",
+      "usage" : "可同时部署人数+1，所有我方单位的防御力+8%"
+    },
+    "rogue_5_relic_legacy_35_c" : {
+      "name" : "林间夜话-γ",
+      "description" : "疗养庭院为有外勤任务的干员特调的香薰套装，提炼十五种植物成分，尝试一百七十二种组合。风踏进山林，万物低语，人可好眠。",
+      "usage" : "可同时部署人数+2，所有我方单位的防御力+10%"
+    },
+    "rogue_5_relic_legacy_38" : {
+      "name" : "湖中神盾",
+      "description" : "三十年前，孩童的玩具木盾落入湖中。三十年后，他凿开冰封湖泊，取出盾牌，踏上英雄的旅途。",
+      "usage" : "护盾值+1；战斗开始时如果拥有护盾值，所有我方单位的最大生命+60%"
+    },
+    "rogue_5_relic_legacy_41" : {
+      "name" : "金酒之杯",
+      "description" : "圣人、骑士、虔信之徒，无人不为之疯狂。老天啊，连杯子本身都是纯金的！",
+      "usage" : "每有5源石锭，所有我方单位的攻击速度+7"
+    },
+    "rogue_5_relic_legacy_42" : {
+      "name" : "绿叶菜罐头",
+      "description" : "很多卡特斯相信吃下这盒罐头，他们就会变得力大无穷。出色的广告效果，业界经典成功案例。",
+      "usage" : "所有干员技能触发后1秒内攻击力+60%"
+    },
+    "rogue_5_relic_legacy_43" : {
+      "name" : "叙拉古人的愤怒",
+      "description" : "曾经开设在高卢首都的一家“正宗叙拉古餐厅”的招牌面食，用浓郁的巧克力酱与源石虫肝制成的酱汁以其独特风味备受高卢贵族好评。但是据说差一点引起叙拉古与高卢的外交冲突。",
+      "usage" : "所有干员技能触发后1秒内攻击力+100%"
+    },
+    "rogue_5_relic_legacy_44" : {
+      "name" : "古堡的子嗣",
+      "description" : "只要有足够时间，这个盒子便能成为另一座崭新的舞台。",
+      "usage" : "所有干员在场上停留80秒后防御力+400，法术抗性+30"
+    },
+    "rogue_5_relic_legacy_45" : {
+      "name" : "奴隶猎捕器",
+      "description" : "获取娜斯提的设计后，萨卡兹立刻将其运用到了战争之中，他们飞上天空，以绝对优势向着先民倾泻怒火。一场永不停歇的战争就此进入了新的阶段。",
+      "usage" : "进入浮空、失衡与失重状态的单位受到的伤害提升50%，持续10秒"
+    },
+    "rogue_5_relic_legacy_46" : {
+      "name" : "散轶诗简",
+      "description" : "“酣然失千山，万物得其灵。”",
+      "usage" : "【召唤物】的生命值+30%、攻击力+30%，并且不再消耗部署位"
+    },
+    "rogue_5_relic_legacy_47" : {
+      "name" : "断杖-波纹",
+      "description" : "调谐到同一频率，让我们奏起旋律。",
+      "usage" : "场上每有一名术师干员，所有敌人受到的法术伤害+12%（最多叠加8层）"
+    },
+    "rogue_5_relic_legacy_49" : {
+      "name" : "锈刃-久居",
+      "description" : "主人不想见客，客人便到不了门前。",
+      "usage" : "场上每有一名特种干员，所有敌方单位的移动速度-5%（最多叠加8层）"
+    },
+    "rogue_5_relic_legacy_51" : {
+      "name" : "残弩-连珠",
+      "description" : "听到第一支箭的声响，被最后一支箭穿过胸膛。",
+      "usage" : "场上每有一名狙击干员，所有我方单位的攻击速度+12（最多叠加8次）"
+    },
+    "rogue_5_relic_legacy_52" : {
+      "name" : "铁卫-垒沙",
+      "description" : "聚沙成塔，而后俯瞰群敌。",
+      "usage" : "场上每有一名重装干员，所有我方单位受到的物理伤害-10%（最多叠加8次）"
+    },
+    "rogue_5_relic_legacy_55" : {
+      "name" : "钝爪-爆发",
+      "description" : "他已经把所有后续部队的事情都干完了，还要别人做什么？",
+      "usage" : "所有【先锋】干员的初始技力+10，攻击力+10%"
+    },
+    "rogue_5_relic_legacy_57" : {
+      "name" : "折戟-浴血",
+      "description" : "愈战愈勇的战士十分少见，我们常需要安排一些心理辅导来缓和战后的情绪。",
+      "usage" : "所有【近卫】干员在攻击后获得2点技力"
+    },
+    "rogue_5_relic_legacy_59" : {
+      "name" : "铁卫-侵掠",
+      "description" : "对队友和战略目的的保护行动往往会让人忽视他们原本的侵略性。",
+      "usage" : "所有【重装】干员的攻击力+60%"
+    },
+    "rogue_5_relic_legacy_60" : {
+      "name" : "铁卫-整固",
+      "description" : "无论命运的打击多么沉重，扛下它。",
+      "usage" : "所有【重装】干员生命值+40%，防御力+40%，法术抗性+20"
+    },
+    "rogue_5_relic_legacy_61" : {
+      "name" : "残弩-百步穿杨",
+      "description" : "在源石技艺尚不如今天发达的时代，炎国曾以“百步穿杨”的典故来称赞他人箭术高超。",
+      "usage" : "所有【狙击】干员的攻击力+20%"
+    },
+    "rogue_5_relic_legacy_62" : {
+      "name" : "残弩-神速",
+      "description" : "据说古维多利亚的传奇弓手可以让箭矢几乎连成一线。",
+      "usage" : "所有【狙击】干员的攻击速度+70"
+    },
+    "rogue_5_relic_legacy_63" : {
+      "name" : "断杖-织法者",
+      "description" : "在莱塔尼亚仰望高塔的时候经常会看见一些奇怪的现象......甚至是天象。",
+      "usage" : "所有【术师】干员的攻击力+25%，攻击速度+25"
+    },
+    "rogue_5_relic_legacy_64" : {
+      "name" : "断杖-凝神",
+      "description" : "“当一个术师打算全力以赴，哪怕是天火小姐那种坏脾气术师，也会展露出截然不同的气质。”",
+      "usage" : "所有【术师】干员的技力恢复+0.4/秒"
+    },
+    "rogue_5_relic_legacy_65" : {
+      "name" : "支柱-勤奋",
+      "description" : "即使是看似最微小的工作，干员们也会全力以赴。何况事实上，一点也不微小。",
+      "usage" : "所有【辅助】干员的技力消耗-40%"
+    },
+    "rogue_5_relic_legacy_67" : {
+      "name" : "医者-妙手",
+      "description" : "比起从死亡手里多抢回一条命的伟业，事后昏睡个三天算什么？",
+      "usage" : "所有【医疗】干员的攻击速度+50"
+    },
+    "rogue_5_relic_legacy_68" : {
+      "name" : "锈刃-突破",
+      "description" : "手段有很多，结局却只有一种。",
+      "usage" : "所有【特种】干员的部署费用-2，生命+60%"
+    },
+    "rogue_5_relic_legacy_69" : {
+      "name" : "锈刃-研磨",
+      "description" : "磨不完的锈迹，做不尽的工作。",
+      "usage" : "所有【特种】干员的攻击速度+30"
+    },
+    "rogue_5_relic_legacy_70" : {
+      "name" : "锈刃-可视静谧",
+      "description" : "声音在阴影掠过的瞬间遇害，倾听它们的人将是下一位受害者。",
+      "usage" : "所有【特种】干员的再部署时间-35%"
+    },
+    "rogue_5_relic_legacy_71" : {
+      "name" : "冰结的躯壳",
+      "description" : "驻守在冬牙群山的萨米战士经常被一种幻觉鼓舞：随着生命流向大地，他们原本被冻僵的身体变得越来越轻快。",
+      "usage" : "近战干员在受到伤害后5秒内，攻击速度+40"
+    },
+    "rogue_5_relic_legacy_74" : {
+      "name" : "荆棘环",
+      "description" : "你得以从扭曲的恐惧中稳定自我。荆棘上残留着血渍，不知道是刺伤了你还是雪祀自己。他们使用任何手段时都不会眨一下眼睛。",
+      "usage" : "近战干员在受到治疗后，使自身和周围4格内的干员获得1点技力"
+    },
+    "rogue_5_relic_legacy_77" : {
+      "name" : "藤蔓炮手",
+      "description" : "当不同文化的人放下戒备真心交流，出现这样带有奇思妙想的武器也就不足为奇了。",
+      "usage" : "敌方空中单位被击败后，对周围其他敌人造成5000点物理伤害"
+    },
+    "rogue_5_relic_legacy_81" : {
+      "name" : "皇族金胸针",
+      "description" : "高卢皇族用于彰显身份的装饰品，由黄金打造，镶嵌了大量昂贵的固化源石结晶。实际上这种胸针不单纯是装饰，许多胸针安装了搭载防御性法术的通用源石回路。",
+      "usage" : "所有我方单位的法术抗性+15，且部署后抵挡一次伤害"
+    },
+    "rogue_5_relic_legacy_84" : {
+      "name" : "高卢银行支票",
+      "description" : "镶金嵌银、奢华无比的支票本，现在已经无从兑现。",
+      "usage" : "所有干员的初始技力+12"
+    },
+    "rogue_5_relic_legacy_86" : {
+      "name" : "“时光之末”",
+      "description" : "只要到达不了新的循环，过错就还有机会挽回。",
+      "usage" : "仅一次，在非区域最终战斗和领袖战中失败时不结束探索，目标生命+1并继续下一步行动"
+    },
+    "rogue_5_relic_legacy_89" : {
+      "name" : "迷迭香之拥",
+      "description" : "“谁来审判？”",
+      "usage" : "所有敌方单位的生命-10%，防御力-20%"
+    },
+    "rogue_5_relic_legacy_90" : {
+      "name" : "“黑夜呢喃”",
+      "description" : "一张黑色唱片。不。准。碰。它。",
+      "usage" : "所有敌方单位的生命-10%"
+    },
+    "rogue_5_relic_legacy_92" : {
+      "name" : "难闻的止血剂",
+      "description" : "“这种源石虫的体液经过发酵处理之后可以用于止血”——《罗德岛野外生存指南》",
+      "usage" : "所有我方单位的生命+20%，【伺烛客】额外+10%"
+    },
+    "rogue_5_relic_legacy_94" : {
+      "name" : "活玫瑰",
+      "description" : "是你滋养她，还是她守护你？",
+      "usage" : "所有我方单位受到的治疗和生命回复效果+20%"
+    },
+    "rogue_5_relic_legacy_98" : {
+      "name" : "钝爪-突破",
+      "description" : "在波涛中插下顽石，分割巨浪，破开迷雾。",
+      "usage" : "所有【先锋】干员的部署费用-50%，生命+60%"
+    },
+    "rogue_5_relic_raidian_1" : {
+      "name" : "电弧的掌机",
+      "description" : "塞入了许多精心制作的小游戏，在游戏主角的身上总能看到电弧日常操控的器械的影子，偏偏没有她自己。",
+      "usage" : "场上每存在一名召唤物，使全体【召唤物】的攻击力+100，防御力+100（最高叠加10层）"
+    },
+    "rogue_5_relic_return_12" : {
+      "name" : "教母的信物",
+      "description" : "骨质的桂冠，西西里夫人的信物。秩序的象征将铲平起伏的欲望，斗争不被允许。无论真假，跪下。",
+      "usage" : "所有敌方单位的攻击力-17%"
+    },
+    "rogue_5_relic_return_13" : {
+      "name" : "开裂的束缚带",
+      "description" : "这根坚固的带子似乎绑过什么恐怖的东西......救命......",
+      "usage" : "所有敌方单位的攻击力-7%"
+    },
+    "rogue_5_relic_return_17" : {
+      "name" : "圆石祭坛",
+      "description" : "送上祭品，获得回馈。它是如此地便利，以至于人们都没有思考过，他们到底在向什么献祭。",
+      "usage" : "战斗胜利后有概率使所有我方单位的攻击力和防御力永久+5%（最多叠加10层）"
+    },
+    "rogue_5_relic_return_21" : {
+      "name" : "断杖-汲取",
+      "description" : "摄取失败者的养分，踏上恒久的胜利。",
+      "usage" : "所有【术师】干员每对一个单位造成伤害就回复2点技力值"
+    },
+    "rogue_5_relic_return_22" : {
+      "name" : "铁卫-推进",
+      "description" : "以放弃防守换取进攻的机会，毁灭的阵线向前迈进。",
+      "usage" : "所有【重装】干员每2秒束缚自身附近所有敌人1秒，并造成相当于攻击力100%的真实伤害"
+    },
+    "rogue_5_relic_return_3" : {
+      "name" : "讴歌者面纱",
+      "description" : "前任女妖之主留给人一种亲切的印象，好似她从来都是如此......直到她拔出骨笔，轻声吟唱，将哀嚎钉入每一个入侵者的思维。",
+      "usage" : "所有敌方单位受到的法术伤害+10%，受到的元素损伤+50%"
+    },
+    "rogue_5_relic_return_4" : {
+      "name" : "灾难之源",
+      "description" : "萨卡兹掘断了塔尔干主矿脉，源石结晶从卡兹戴尔喷涌而出。萨卡兹的败亡早已注定，于是他们要大地上的一切成为陪葬。",
+      "usage" : "所有敌方单位受到的法术伤害+20%，受到的元素损伤+100%"
+    },
+    "rogue_5_relic_return_5" : {
+      "name" : "洁白的舞鞋",
+      "description" : "乌萨斯的舞者轻盈灵动，于天地间尽情舒展身姿。",
+      "usage" : "可以在低地部署远程位干员"
+    },
+    "rogue_5_relic_richg_2" : {
+      "name" : "圆木轮",
+      "description" : "群山中翻滚而下的圆石砸碎了天灾形成的晶簇，也第一次给予了人们快速移动的灵感。",
+      "usage" : "初始费用+5，编队里每有一名【先锋】，初始费用额外+10"
+    },
+    "rogue_5_relic_richg_3" : {
+      "name" : "二抬肩舆",
+      "description" : "一张椅子两根棍，将人分了个上下高低。如今，轿子已大多进了博物馆，可多少人心中还想着由人抬起，高高在上呢？",
+      "usage" : "部署费用上限+15，所有【先锋】攻击力+25%，部署时，返还扣除的所有费用"
+    },
+    "rogue_5_relic_richg_5" : {
+      "name" : "驮垒",
+      "description" : "矫健的勇士四散而开，拱卫着聚在驮兽背上的人们，向着天灾未至的乐土而去。这便是最初的“移动城市”。",
+      "usage" : "部署费用上限+15，部署费用为99及以上时，保护目标点周围12格的敌方单位失去隐匿并且命中率下降35%"
+    },
+    "rogue_5_relic_speg_1" : {
+      "name" : "契心聆铃",
+      "description" : "新秉烛人在就任仪式后去面见各位前辈——悬在办公处的结绳檐铃，一环扣着一环，颜色手法各不相同——聆听那清越铃声后，秉烛人在那环环相扣的绳结上新编了一环。",
+      "usage" : "每当有干员通过作战成为伺烛客，所有【伺烛客】攻击力+40%，部署后获得4点部署费用，再部署时间-4%（最多4层）"
+    },
+    "rogue_5_relic_speg_5" : {
+      "name" : "旧烽遗梦",
+      "description" : "惊雷骤雨，战嚣冲天。金戈铁骑，踏梦而来。",
+      "usage" : "当前每投出一枚厉钱，战斗获得的指挥经验+15%"
+    },
+    "rogue_5_relic_speg_6" : {
+      "name" : "铿金征鼓",
+      "description" : "军中一员“老将”。曾于阵上传令，历风霜，见胜败。如今，它已被更先进的传令方式替下，但战士出征前仍可闻征鼓隆隆，提振士气。",
+      "usage" : "每次投钱，所有干员攻击力+15％（最多叠加10次），若只投掷出厉钱，则额外获得1次叠加次数"
+    }
+  },
+  "userCharInfo" : {
+    "char_002_amiya" : {
+      "skinId" : "char_002_amiya#2",
+      "evolvePhase" : 2
+    },
+    "char_003_kalts" : {
+      "skinId" : "char_003_kalts@boc#6",
+      "evolvePhase" : 2
+    },
+    "char_1029_yato2" : {
+      "skinId" : "char_1029_yato2#1",
+      "evolvePhase" : 2
+    },
+    "char_1035_wisdel" : {
+      "skinId" : "char_1035_wisdel@sale#14",
+      "evolvePhase" : 2
+    },
+    "char_1041_angel2" : {
+      "skinId" : "char_1041_angel2#2",
+      "evolvePhase" : 2
+    },
+    "char_1043_leizi2" : {
+      "skinId" : "char_1043_leizi2#2",
+      "evolvePhase" : 2
+    },
+    "char_1044_hsgma2" : {
+      "skinId" : "char_1044_hsgma2#2",
+      "evolvePhase" : 2
+    },
+    "char_1045_svash2" : {
+      "skinId" : "char_1045_svash2#2",
+      "evolvePhase" : 2
+    },
+    "char_1046_sbell2" : {
+      "skinId" : "char_1046_sbell2#2",
+      "evolvePhase" : 2
+    },
+    "char_109_fmout" : {
+      "skinId" : "char_109_fmout#2",
+      "evolvePhase" : 2
+    },
+    "char_110_deepcl" : {
+      "skinId" : "char_110_deepcl@winter#3",
+      "evolvePhase" : 2
+    },
+    "char_133_mm" : {
+      "skinId" : "char_133_mm@summer#20",
+      "evolvePhase" : 2
+    },
+    "char_141_nights" : {
+      "skinId" : "char_141_nights#2",
+      "evolvePhase" : 2
+    },
+    "char_144_red" : {
+      "skinId" : "char_144_red#1",
+      "evolvePhase" : 2
+    },
+    "char_150_snakek" : {
+      "skinId" : "char_150_snakek@yun#7",
+      "evolvePhase" : 2
+    },
+    "char_151_myrtle" : {
+      "skinId" : "char_151_myrtle@taiko#1",
+      "evolvePhase" : 2
+    },
+    "char_196_sunbr" : {
+      "skinId" : "char_196_sunbr#1",
+      "evolvePhase" : 2
+    },
+    "char_201_moeshd" : {
+      "skinId" : "char_201_moeshd#2",
+      "evolvePhase" : 2
+    },
+    "char_206_gnosis" : {
+      "skinId" : "char_206_gnosis#2",
+      "evolvePhase" : 2
+    },
+    "char_298_susuro" : {
+      "skinId" : "char_298_susuro@summer#6",
+      "evolvePhase" : 2
+    },
+    "char_300_phenxi" : {
+      "skinId" : "char_300_phenxi@boc#9",
+      "evolvePhase" : 2
+    },
+    "char_328_cammou" : {
+      "skinId" : "char_328_cammou@witch#2",
+      "evolvePhase" : 2
+    },
+    "char_355_ethan" : {
+      "skinId" : "char_355_ethan@epoque#7",
+      "evolvePhase" : 2
+    },
+    "char_377_gdglow" : {
+      "skinId" : "char_377_gdglow@sanrio#1",
+      "evolvePhase" : 2
+    },
+    "char_385_finlpp" : {
+      "skinId" : "char_385_finlpp@nian#11",
+      "evolvePhase" : 2
+    },
+    "char_4041_chnut" : {
+      "skinId" : "char_4041_chnut#2",
+      "evolvePhase" : 2
+    },
+    "char_4051_akkord" : {
+      "skinId" : "char_4051_akkord#1",
+      "evolvePhase" : 0
+    },
+    "char_4052_surfer" : {
+      "skinId" : "char_4052_surfer#2",
+      "evolvePhase" : 2
+    },
+    "char_4067_lolxh" : {
+      "skinId" : "char_4067_lolxh#2",
+      "evolvePhase" : 2
+    },
+    "char_4145_ulpia" : {
+      "skinId" : "char_4145_ulpia#2",
+      "evolvePhase" : 2
+    },
+    "char_4163_rosesa" : {
+      "skinId" : "char_4163_rosesa#2",
+      "evolvePhase" : 2
+    },
+    "char_4195_radian" : {
+      "skinId" : "char_4195_radian#2",
+      "evolvePhase" : 2
+    },
+    "char_445_wscoot" : {
+      "skinId" : "char_445_wscoot#2",
+      "evolvePhase" : 2
+    },
+    "char_484_robrta" : {
+      "skinId" : "char_484_robrta@summer#10",
+      "evolvePhase" : 2
+    }
+  }
+} 
