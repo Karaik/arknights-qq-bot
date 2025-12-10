@@ -2,7 +2,6 @@ package com.karaik.gamebot.auth.service;
 
 import com.karaik.gamebot.auth.client.AuthHttpClient;
 import com.karaik.gamebot.auth.config.AuthProperties;
-import com.karaik.gamebot.auth.dto.request.CheckCredRequest;
 import com.karaik.gamebot.auth.dto.request.CredByCodeRequest;
 import com.karaik.gamebot.auth.dto.request.GrantRequest;
 import com.karaik.gamebot.auth.dto.request.SendPhoneCodeRequest;
@@ -120,15 +119,15 @@ public class AuthService {
     }
 
     /**
-     * 带签名校验 cred 有效性，需要 cred 与 token。
-     * <p>业务说明：官方 /user/check 需携带 Cred、sign 等头，使用 generate_cred_by_code 返回的 token 计算签名。</p>
+     * 校验 cred 有效性，仅需携带 Cred 头（官方 /user/check）。
      */
-    public CheckCredResponse checkCred(CheckCredRequest request) {
-        if (!StringUtils.hasText(request.getCred()) || !StringUtils.hasText(request.getToken())) {
-            throw new IllegalArgumentException("cred/token 不能为空");
+    public CheckCredResponse checkCred(String cred) {
+        if (!StringUtils.hasText(cred)) {
+            throw new IllegalArgumentException("cred 不能为空");
         }
         String path = properties.getSkland().getCheck_cred();
-        return httpClient.signedGet(properties.getSkland().getBase_url(), path, request.getToken(), request.getCred(), CheckCredResponse.class, timeout());
+        var headers = Map.of("Cred", cred);
+        return httpClient.getWithHeaders(properties.getSkland().getBase_url(), path, headers, CheckCredResponse.class, timeout());
     }
 
     private void validatePhone(String phone) {

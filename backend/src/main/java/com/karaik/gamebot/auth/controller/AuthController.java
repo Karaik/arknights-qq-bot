@@ -1,6 +1,5 @@
 package com.karaik.gamebot.auth.controller;
 
-import com.karaik.gamebot.auth.dto.request.CheckCredRequest;
 import com.karaik.gamebot.auth.dto.request.CredByCodeRequest;
 import com.karaik.gamebot.auth.dto.request.GrantRequest;
 import com.karaik.gamebot.auth.dto.request.SendPhoneCodeRequest;
@@ -19,10 +18,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
 
 import java.util.function.Supplier;
@@ -92,13 +88,13 @@ public class AuthController {
     }
 
     /**
-     * 校验 cred 是否有效（官方 /user/check，需带签名）。
+     * 校验 cred 是否有效（官方 /user/check，GET，需携带 Cred 头）。
      */
     @Operation(summary = "校验cred有效性")
     @PostMapping("/user/check")
-    public ApiResponse<CheckCredResponse> checkCred(@RequestBody @Validated CheckCredRequest request) {
+    public ApiResponse<CheckCredResponse> checkCred(@RequestHeader("Cred") String cred) {
         log.info("event=check_cred");
-        return wrap(() -> authService.checkCred(request));
+        return wrap(() -> authService.checkCred(cred));
     }
 
     private <T> ApiResponse<T> wrap(Supplier<T> supplier) {

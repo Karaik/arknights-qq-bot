@@ -82,6 +82,26 @@ public class AuthHttpClient {
         }
     }
 
+    /**
+     * 简单 GET 调用，允许自定义 Header，不做签名。
+     */
+    public <T> T getWithHeaders(String base_url, String path, Map<String, String> headers, Class<T> type, Duration timeout) {
+        String url = base_url + path;
+        try {
+            return webClient(properties.getHypergryph().getUser_agent())
+                    .get()
+                    .uri(url)
+                    .headers(h -> headers.forEach(h::set))
+                    .retrieve()
+                    .bodyToMono(type)
+                    .timeout(timeout)
+                    .block();
+        } catch (WebClientResponseException e) {
+            log.error("event=http.get.fail url={} status={} body={}", url, e.getStatusCode(), e.getResponseBodyAsString());
+            throw e;
+        }
+    }
+
     public Duration timeout() {
         return Duration.ofSeconds(properties.getHypergryph().getTimeout_seconds());
     }

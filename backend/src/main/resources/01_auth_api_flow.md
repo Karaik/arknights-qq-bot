@@ -18,7 +18,7 @@
 - `POST /api/auth/token_by_phone_code`：body `{phone,code}`，返回登录 token。
 - `POST /api/auth/grant`：body `{token}`，返回 `code`（oauth_code）与 `uid`。
 - `POST /api/auth/generate_cred_by_code`：body `{code,kind=1}`，返回 `cred` 与用于签名的 `token`。
-- `POST /api/auth/user/check`：body `{cred,token}`，内部自动生成签名头后请求官方 `/user/check`。
+- `GET /api/auth/user/check`：Header `Cred=<cred>`，仅携带 Cred 头请求官方 `/user/check`。
 
 ## 签名规则（适用于所有需要 `Cred` 的功能接口）
 - header 基础字段按顺序：`platform`,`timestamp`,`dId`,`vName`，值来源 `auth.skland.*` 配置。
