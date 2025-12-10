@@ -15,7 +15,14 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * 生成森空岛接口所需签名头。规则与示例 Python 保持一致。
+ * 生成森空岛接口所需签名头
+ * <p>步骤说明：</p>
+ * <ul>
+ *   <li>基础头字段：platform/timestamp/dId/vName，按此顺序放入 LinkedHashMap。</li>
+ *   <li>待签名字符串：path+query(不含?)+bodyJson+timestamp+headersJson。</li>
+ *   <li>签名：sign = md5(hmac_sha256(token, 待签名字符串))，token 为 generate_cred_by_code 返回。</li>
+ *   <li>最终请求头：上述基础头 + cred + sign。</li>
+ * </ul>
  */
 @Component
 @RequiredArgsConstructor
@@ -39,10 +46,16 @@ public class SklandSignatureHelper {
         Map<String, String> headers = new LinkedHashMap<>();
         headers.put("platform", properties.getSkland().getPlatform());
         headers.put("timestamp", String.valueOf(timestamp));
+
+        // 设备 ID，可为空字符串
         headers.put("dId", properties.getSkland().getD_id());
+
+        // 签名版本号
         headers.put("vName", properties.getSkland().getV_name());
 
         String headersJson = toJson(headers);
+
+        // path+query+body+ts+headersJson
         String toSign = pathWithQuery + bodyJson + timestamp + headersJson;
         String hmacHex = hmacSha256Hex(token, toSign);
         String sign = md5Hex(hmacHex);

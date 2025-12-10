@@ -10,17 +10,17 @@
          -> /api/auth/token_by_phone_code -> 得到登录 token
          -> /api/auth/grant               -> 换取 oauth_code + uid
          -> /api/auth/generate_cred_by_code -> 换取 cred + skland token
-         -> /api/auth/user/check          -> 带签名校验 cred 有效性
+         -> /api/auth/user/check          -> 携带 Cred 头校验有效性（无需签名）
 ```
 
 ## 接口摘要
 - `POST /api/auth/send_phone_code`：body `{phone,type}`，默认 `type=2`，内置冷却 70s（可通过配置调整）。
 - `POST /api/auth/token_by_phone_code`：body `{phone,code}`，返回登录 token。
 - `POST /api/auth/grant`：body `{token}`，返回 `code`（oauth_code）与 `uid`。
-- `POST /api/auth/generate_cred_by_code`：body `{code,kind=1}`，返回 `cred` 与用于签名的 `token`。
-- `GET /api/auth/user/check`：Header `Cred=<cred>`，仅携带 Cred 头请求官方 `/user/check`。
+- `POST /api/auth/generate_cred_by_code`：body `{code,kind=1}`，返回 `cred` 与用于签名的 `token`（若调用需签名的接口时使用）。
+- `GET /api/auth/user/check`：Header `Cred=<cred>`，仅携带 Cred 头请求官方 `/user/check`，无需签名/token。
 
-## 签名规则（适用于所有需要 `Cred` 的功能接口）
+## 签名规则（仅在调用需要 sign 的接口时使用，`/user/check` 不需要）
 - header 基础字段按顺序：`platform`,`timestamp`,`dId`,`vName`，值来源 `auth.skland.*` 配置。
 - 待签名字符串：`path + query(不含?) + bodyJson + timestamp + headersJson`。
 - `sign = md5(hmac_sha256(token, 待签名字符串))`，`token` 为 `generate_cred_by_code` 的返回值。
@@ -30,20 +30,20 @@
 ```
 auth:
   hypergryph:
-    base-url: 官方 as.hypergryph.com
-    send-phone-code: /general/v1/send_phone_code
-    token-by-phone-code: /user/auth/v2/token_by_phone_code
+    base_url: 官方 as.hypergryph.com
+    send_phone_code: /general/v1/send_phone_code
+    token_by_phone_code: /user/auth/v2/token_by_phone_code
     grant: /user/oauth2/v2/grant
-    app-code: 4ca99fa6b56cc2ba   # 官方固定
-    user-agent: ...              # 可按需覆盖
-    timeout-seconds: 10
+    app_code: 4ca99fa6b56cc2ba   # 官方固定
+    user_agent: ...              # 可按需覆盖
+    timeout_seconds: 10
   skland:
-    base-url: https://zonai.skland.com
-    cred-by-code: /api/v1/user/auth/generate_cred_by_code
-    check-cred: /api/v1/user/check
-    v-name: 1.35.0
+    base_url: https://zonai.skland.com
+    cred_by_code: /api/v1/user/auth/generate_cred_by_code
+    check_cred: /api/v1/user/check
+    v_name: 1.35.0
     platform: "1"
-    d-id: ""                      # 可留空或自定义设备 ID
+    d_id: ""                      # 可留空或自定义设备 ID
 ```
 
 Koishi 调用时建议严格按顺序执行，便于定位失败环节；功能性接口（带 Cred）请复用 `auth.skland` 的签名规则。后续如需聚合“一步到位”接口，可在保持上述步骤可观测的前提下再做封装。

@@ -55,12 +55,16 @@ public class AuthHttpClient {
 
     /**
      * 带签名的 GET/POST 调用（用于 cred 校验等需要 Cred 头的接口）。
+     * <p>先组装 path+query+body+timestamp+headersJson，HMAC-SHA256(token) 再做 MD5。</p>
+     * <p>基础头字段顺序固定：platform、timestamp、dId、vName，取自配置 auth.skland。</p>
      */
     public <T> T signedGet(String base_url, String pathWithQuery, String token, String cred, Class<T> type, Duration timeout) {
         long ts = Instant.now().getEpochSecond();
         URI uri = URI.create(base_url + pathWithQuery);
         String path = uri.getPath();
         String query = uri.getQuery() == null ? "" : uri.getQuery();
+
+        // path+query（不含 ?）
         String combined = path + query;
         var headers = signatureHelper.generate(combined, "", ts, token, cred);
         try {
