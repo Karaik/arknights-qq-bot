@@ -56,6 +56,7 @@
 - 文档更新：
   - `src/main/resources/01_auth_api_flow.md`：接口路径/参数、固定值、冷却等。
   - 根级 README（本文件同级）简述功能与快速启动。
+- 测试仅放在 test 目录，严禁在主代码包内放手工 Runner。当前集成测试拆分为：发送验证码、短信取 token、密码取 token、已有 token 继续 grant->cred->check。需手动在测试静态字段填入手机号/验证码/密码/token，否则用例通过 Assumptions 跳过。
 
 ## 待办/风险
 - 人机验证未实现自动化，需要产品决定接入极验或前端/Koishi 完成挑战后带票据重试。

@@ -7,6 +7,7 @@
 2) 配置 `src/main/resources/application.yml`：填写 `auth.hypergryph.api-key`（可为空禁用），确认域名/路径/UA。
 3) 运行：`mvn spring-boot:run` 或 IDE 启动主类 `com.karaik.gamebot.ArknightsBotApplication`。
 4) 文档：`/swagger-ui.html` 或 `/doc.html`（Knife4j，已注入 `X-API-KEY` 头）。
+5) 交互验证/测试：集成测试拆分为发送验证码、短信取 token、密码取 token、已有 token 继续 grant->cred->check，需在测试静态字段填入手机号/验证码/密码/token，否则将跳过。测试只在 test 目录，主代码不含手工 Runner。
 
 ## 配置要点
 - `auth.hypergryph.*`：登录接口路径、UA、`api-key`、`phone_code_cooldown_seconds`（短信冷却）。
